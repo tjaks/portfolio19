@@ -1,0 +1,44 @@
+body {
+  background-color: #fff;
+  font-family: maaxMedium!important;
+  padding: 0;
+  margin: 0;
+  min-height: 100%;
+  width: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6, a {
+  font-family: maaxMedium!important;
+}
+
+p, .p {
+  font-family: 'Consolas', sans-serif!important;
+  color: #111;
+}
+
+.logo {
+  font-family: caslon, serif!important;
+  font-size: 34px;
+  letter-spacing: -0.5px;
+  margin: 40px;
+}
+
+@font-face {
+  font-family: maax;
+  src: url('./fonts/Maax.ttf');
+}
+@font-face {
+  font-family: maaxBold;
+  src: url('./fonts/Maax-Bold.ttf');
+}
+@font-face {
+  font-family: maaxMedium;
+  src: url('./fonts/Maax-Medium.ttf');
+}
+
+@font-face {
+  font-family: caslon;
+  src: local('caslon'), url('./fonts/CaslonCP.otf') format('otf');
+}

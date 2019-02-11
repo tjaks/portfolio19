@@ -1,0 +1,60 @@
+body {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.animations {
+    .startpage {
+        &__headline {
+            h1 {
+                overflow: hidden; /* Ensures the content is not revealed until the animation */
+                white-space: nowrap; /* Keeps the content on a single line */
+                letter-spacing: 1px;
+                animation: typing 2s steps(27, end);
+                animation-fill-mode: forwards;
+                @media (max-width:600px) {
+                    white-space: normal;
+                }
+            }
+            /* The typing effect */
+            @keyframes typing {
+                from { width: 0;}
+                to { 
+                    width: 100%;  
+                    position: relative;  
+                   }
+            }
+        }
+    }
+
+    .loading {
+        background-color: #fff;
+        z-index: 100;
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        animation: fadeIn 2s;
+        animation-delay: 2s;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes fadeIn {
+        from {opacity:1; visibility: visible;}
+        to {opacity:0; visibility: hidden;}
+    }
+    
+    /*.arrow__animation {
+            animation: RollIn 1.5s;
+            animation-delay: 3.3s;
+            animation-fill-mode: forwards;
+
+            @keyframes RollIn {
+                from { top: -250px;}
+                to {top: -350px;;}
+            }
+        }*/
+}
+
+

@@ -1,0 +1,41 @@
+.case {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 200px;
+    margin: 150px 0;
+    &:first-of-type {
+        margin-top: 0;
+        margin-bottom: 150px;
+    }
+
+    section {
+        &:first-of-type {
+            flex: 1;
+        }
+        &:last-of-type {
+           width: 66.6%;
+        }
+    }
+
+img {
+    -webkit-transition: all .7s ease-in-out;
+    -moz-transition: all .7s ease-in-out;
+    -o-transition: all .7s ease-in-out;
+    transition: all .7s ease-in-out;
+    position: relative;
+}
+
+&__screenshot {
+     img {
+        width: 750px;
+        height: auto;
+     }
+}
+
+&__mockup {
+    img {
+        width: 650px;
+        height: auto;
+    }
+}
+}

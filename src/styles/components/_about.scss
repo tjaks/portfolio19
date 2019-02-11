@@ -1,0 +1,77 @@
+.about {
+    height: 100vh;
+    width: 100%;
+    display: table;
+    background: url('~/media/walkingtommy.png') no-repeat center center fixed; 
+    background-size: cover;
+    background-position: right top;
+
+    .bgWhite {
+        background: #FFF;
+    }
+
+    img {
+         width: 600px;
+         height: auto;
+    }
+    
+
+
+    h1 {
+        background: blue;
+        width: 277px;
+        padding: 20px;
+        color: #FFF;
+        text-align: center;
+        font-size: 3.7rem;
+        margin: 150px 0 300px 0;
+
+        span {
+            display: block;
+        }
+    }
+    &__textContent {
+        background: #FFF;
+        padding: 100px 50px;
+        display: flex;
+        width: 100%;
+        position: relative;
+        @media( max-width:900px) {
+            padding: 50px 20px;
+        }
+        i {
+            color: #222;
+            position: absolute;
+            right: 15px;
+            bottom: 40px;
+            float: right;
+        }
+
+        h3 {
+            text-align: center;
+        }
+
+        p {
+            &:hover {
+                text-shadow: 1px 1px 1px #f7f7f7;
+            }
+            @media( max-width:900px) {
+                width: 100%;
+            }
+        }
+    }
+
+    &__companies {
+        display: flex;
+        height: 100%;
+        header {
+            height: 2rem;
+        }
+        ul {
+            display: flex;
+            flex-direction: column;
+            list-style: none;
+            margin: 0;
+        }
+    }
+}
