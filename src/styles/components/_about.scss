@@ -2,9 +2,9 @@
     height: 100vh;
     width: 100%;
     display: table;
-    background: url('~/media/walkingtommy.png') no-repeat center center fixed; 
+    background: url('./media/walkingtommy.png') no-repeat right top fixed;
     background-size: cover;
-    background-position: right top;
+    //background-position: right top;
 
     .bgWhite {
         background: #FFF;

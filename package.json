@@ -1,6 +1,7 @@
 {
   "name": "portfolio19",
   "version": "0.1.0",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "font-awesome": "^4.7.0",

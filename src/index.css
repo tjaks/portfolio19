@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, h6, a {
 }
 
 p, .p {
-  font-family: 'Consolas', sans-serif!important;
+  font-family: Consolas, sans-serif!important;
   color: #111;
 }
 
@@ -29,10 +29,12 @@ p, .p {
   font-family: maax;
   src: url('./fonts/Maax.ttf');
 }
+
 @font-face {
   font-family: maaxBold;
   src: url('./fonts/Maax-Bold.ttf');
 }
+
 @font-face {
   font-family: maaxMedium;
   src: url('./fonts/Maax-Medium.ttf');
@@ -41,4 +43,10 @@ p, .p {
 @font-face {
   font-family: caslon;
   src: local('caslon'), url('./fonts/CaslonCP.otf') format('otf');
+}
+
+
+@font-face {
+  font-family: Consolas;
+  src: local('consolas'), url('./fonts/Consolas.ttf') format('ttf');
 }
