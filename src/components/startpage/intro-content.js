@@ -11,7 +11,7 @@ export default class IntroContent extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            backgroundColor: "#FFF",
+            backgroundColor: "#f9f9f9",
             activeCase: "",
             sideNav: false,
             rollUpAnimation: false

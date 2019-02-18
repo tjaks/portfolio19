@@ -1,0 +1,50 @@
+.case-section {
+  padding: 2rem;
+  height: 100%;
+  background: #f9f9f9;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  transition: all 1.5s ease-out;
+
+  &__item {
+    max-width: 800px;
+    display: flex;
+    padding: 2rem;
+    position: relative;
+    &--text {
+      margin-right: -5rem;
+      z-index: 100;
+    }
+
+    h2, p {
+      color: #fff;
+    }
+    figure {
+      //background-attachment: fixed;
+      background-size: cover;
+      background-position: center;
+      align-self: center;
+      width: 350px;
+      height: 550px;
+
+    }
+  }
+  .overlay {
+    opacity: 0;
+    background: rgba(0,0,255,.7);
+    position: absolute;
+    z-index: 90;
+    align-self: center;
+    width: 350px;
+    height: 550px;
+    right: 4.5rem;
+    top: 3rem;
+    &:hover {
+      cursor: pointer;
+      transition: all .4s ease-out;
+      opacity: 1;
+    }
+  }
+}
