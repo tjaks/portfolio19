@@ -5,7 +5,8 @@ import Home from './components/home';
 import Footer from './components/footer';
 import Header from './components/header';
 import About from './components/about';
-import caseRV from './components/case/riktiga-vykort';
+import smartbokrWebb from './components/case/smartbokr-webb';
+import nookstockholm from './components/case/nookstockholm';
 
 
 class App extends Component {
@@ -16,7 +17,8 @@ class App extends Component {
           <div className="animations">
             <Header />
             <Switch>
-              <Route path="/case/riktiga-vykort-postnord" component={caseRV} />
+            <Route path="/case/nookstockholm" component={nookstockholm} />
+              <Route path="/case/smartbokr-webb" component={smartbokrWebb} />
               <Route path="/about" component={About} />
               <Route path="/" component={Home} />
             </Switch>

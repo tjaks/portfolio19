@@ -77,7 +77,6 @@ export default class Header extends Component {
         return (
             <header>
                 <nav className={"navigation " + (this.state.isScrolled)}>
-
                     <Link to="/" >
                         {/*<img src="/media/logo.png" />*/}
                         tommyjaks.

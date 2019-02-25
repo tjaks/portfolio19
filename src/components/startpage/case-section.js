@@ -8,6 +8,7 @@ import smartBokrApp from '../../media/skandia-bg.jpg';
 import walkingSuit from '../../media/walking-suit.jpg';
 import nordeaCase from '../../media/nordeacase.png';
 import { fixedBody } from '../utils';
+import Tilt from 'react-tilt'
 
 
 export default class CaseSection extends Component {
@@ -55,8 +56,12 @@ export default class CaseSection extends Component {
                         <p>Developer</p>
                         <p>wordpress</p>
                     </div>
-                    <figure style={{  backgroundImage: 'url(' + smartBokr + ')' }}></figure>
-                    <div className="overlay"></div>
+                        <Tilt options={{ max : 25, scale: 1 }}>
+                            <Link onClick={this.pageTransition} to="/case/smartbokr-webb">
+                                <figure style={{  backgroundImage: 'url(' + smartBokr + ')' }}></figure>
+                                <div className="overlay"></div>
+                            </Link>
+                        </Tilt>
                 </section>
 
                 <section className="case-section__item">
@@ -66,8 +71,12 @@ export default class CaseSection extends Component {
                         <p>CSS & Animations</p>
                         <p>React.js</p>
                     </div>
-                    <figure style={{  backgroundImage: 'url(' + smartBokrApp + ')' }}></figure>
-                    <div className="overlay"></div>
+                    <Tilt options={{ max : 25, scale: 1 }}>
+                        <Link onClick={this.pageTransition} to="/case/smartbokr-webb">
+                            <figure style={{  backgroundImage: 'url(' + smartBokrApp + ')' }}></figure>
+                            <div className="overlay"></div>
+                        </Link>
+                    </Tilt>
                 </section>
 
                 <section className="case-section__item nook">
@@ -77,8 +86,12 @@ export default class CaseSection extends Component {
                         <p>Developer</p>
                         <p>Wordpress</p>
                     </div>
-                    <figure style={{  backgroundImage: 'url(' + walkingSuit + ')' }}></figure>
-                    <div className="overlay"></div>
+                    <Tilt options={{ max : 25, scale: 1 }}>
+                        <Link onClick={this.pageTransition} to="/case/smartbokr-webb">
+                            <figure style={{  backgroundImage: 'url(' + walkingSuit + ')' }}></figure>
+                            <div className="overlay"></div>
+                        </Link>
+                    </Tilt>
                 </section>
 
                 <section className="case-section__item nook">
@@ -88,8 +101,12 @@ export default class CaseSection extends Component {
                         <p>Developer</p>
                         <p>Wordpress</p>
                     </div>
-                    <figure style={{  backgroundImage: 'url(' + nookImg + ')' }}></figure>
-                    <div className="overlay"></div>
+                    <Tilt options={{ max : 25, scale: 1 }}>
+                        <Link onClick={this.pageTransition} to="/case/nookstockholm">
+                            <figure style={{  backgroundImage: 'url(' + nookImg + ')' }}></figure>
+                            <div className="overlay"></div>
+                        </Link>
+                    </Tilt>
                 </section>
 
                 <section className="case-section__item nook">
@@ -98,8 +115,12 @@ export default class CaseSection extends Component {
                         <p>Frontend Developer</p>
                         <p>Javascript</p>
                     </div>
-                    <figure style={{  backgroundImage: 'url(' + nordeaCase + ')' }}></figure>
-                    <div className="overlay"></div>
+                    <Tilt options={{ max : 25, scale: 1 }}>
+                        <Link onClick={this.pageTransition} to="/case/smartbokr-webb">
+                            <figure style={{  backgroundImage: 'url(' + nordeaCase + ')' }}></figure>
+                            <div className="overlay"></div>
+                        </Link>
+                    </Tilt>
                 </section>
             </article>
         );

@@ -21,6 +21,7 @@
     h2, p {
       color: #fff;
     }
+
     figure {
       //background-attachment: fixed;
       background-size: cover;
@@ -39,8 +40,8 @@
     align-self: center;
     width: 350px;
     height: 550px;
-    right: 4.5rem;
-    top: 3rem;
+    right: 2.5rem;
+    top: 1rem;
     &:hover {
       cursor: pointer;
       transition: all .4s ease-out;
