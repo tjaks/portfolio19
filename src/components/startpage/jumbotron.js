@@ -8,6 +8,10 @@ export default class Jumbotron extends Component {
     constructor(props) {
         super(props);
         this.changeFixedbody = this.changeFixedbody.bind(this);
+        this.state = { 
+            x: 0, 
+            y: 0,
+        };
     }
 
     componentDidMount() {
@@ -26,9 +30,17 @@ export default class Jumbotron extends Component {
         window.scroll({top: height, left: 0, behavior: 'smooth' });
     }
 
+    _onMouseMove(e) {
+        this.setState({ x: e.nativeEvent.offsetX, y: e.nativeEvent.offsetY });
+      }
+
     render() {
+        const styles = {
+            transform: `rotateX(` + -this.state.y/30 + `deg) rotateY(` + -this.state.x/30 + `deg) scale3d(1, 1, 1)`
+        }
         return (
-            <article className="startpage">
+            <article  onMouseMove={this._onMouseMove.bind(this)}>
+             <section className="startpage">
                 <div className="loading">
                 </div>
                 <span className="arrow__animation" > scroll down </span>
@@ -36,7 +48,7 @@ export default class Jumbotron extends Component {
                 <div className="startpage__headline-container">
                 </div>
                 <div className="startpage__headline">
-                    <h1>Digital Product Designer <span> based in Stockholm.</span>
+                    <h1>Passionated Digital Product Designer <span> based in Stockholm.</span>
                     </h1>
                 </div>
 
@@ -49,7 +61,8 @@ export default class Jumbotron extends Component {
                     <button onClick={this.scrollWindow} className="button button__round"><i className="fa fa-long-arrow-down" aria-hidden="true"></i></button>
                 </div>
 
-                <img className="startpage__image" src={ GlitchImage } alt="Glitch Profile" />
+                <img className="startpage__image" src={ GlitchImage } style={styles} alt="Glitch Profile" />
+                </section>
             </article>
 
         );

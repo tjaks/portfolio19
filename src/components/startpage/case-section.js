@@ -56,12 +56,16 @@ export default class CaseSection extends Component {
                         <p>Developer</p>
                         <p>wordpress</p>
                     </div>
-                        <Tilt options={{ max : 25, scale: 1 }}>
-                            <Link onClick={this.pageTransition} to="/case/smartbokr-webb">
+                    <Tilt options={{ max: 25, scale: 1 }}>
+                        {/* <Link onClick={this.pageTransition} to="/case/smartbokr-webb">
                                 <figure style={{  backgroundImage: 'url(' + smartBokr + ')' }}></figure>
                                 <div className="overlay"></div>
-                            </Link>
-                        </Tilt>
+                            </Link> */}
+                        <a href="https://www.smartbokr.com" target="_blank" rel="noopener noreferrer">
+                            <figure style={{ backgroundImage: 'url(' + smartBokr + ')' }}></figure>
+                            <div className="overlay"></div>
+                        </a>
+                    </Tilt>
                 </section>
 
                 <section className="case-section__item">
@@ -71,11 +75,16 @@ export default class CaseSection extends Component {
                         <p>CSS & Animations</p>
                         <p>React.js</p>
                     </div>
-                    <Tilt options={{ max : 25, scale: 1 }}>
-                        <Link onClick={this.pageTransition} to="/case/smartbokr-webb">
+                    <Tilt options={{ max: 25, scale: 1 }}>
+                        {/* <Link onClick={this.pageTransition} to="/case/smartbokr-webb">
                             <figure style={{  backgroundImage: 'url(' + smartBokrApp + ')' }}></figure>
                             <div className="overlay"></div>
-                        </Link>
+                        </Link> */}
+
+                        <a href="https://inhouse.smartbokr.com" target="_blank" rel="noopener noreferrer">
+                            <figure style={{ backgroundImage: 'url(' + smartBokrApp + ')' }}></figure>
+                            <div className="overlay"></div>
+                        </a>
                     </Tilt>
                 </section>
 
@@ -86,11 +95,16 @@ export default class CaseSection extends Component {
                         <p>Developer</p>
                         <p>Wordpress</p>
                     </div>
-                    <Tilt options={{ max : 25, scale: 1 }}>
-                        <Link onClick={this.pageTransition} to="/case/smartbokr-webb">
+                    <Tilt options={{ max: 25, scale: 1 }}>
+                        {/* <Link onClick={this.pageTransition} to="/case/smartbokr-webb">
                             <figure style={{  backgroundImage: 'url(' + walkingSuit + ')' }}></figure>
                             <div className="overlay"></div>
-                        </Link>
+                        </Link> */}
+
+                        <a href="https://www.quedro.com" target="_blank" rel="noopener noreferrer">
+                            <figure style={{ backgroundImage: 'url(' + walkingSuit + ')' }}></figure>
+                            <div className="overlay"></div>
+                        </a>
                     </Tilt>
                 </section>
 
@@ -101,11 +115,15 @@ export default class CaseSection extends Component {
                         <p>Developer</p>
                         <p>Wordpress</p>
                     </div>
-                    <Tilt options={{ max : 25, scale: 1 }}>
-                        <Link onClick={this.pageTransition} to="/case/nookstockholm">
+                    <Tilt options={{ max: 25, scale: 1 }}>
+                        {/* <Link onClick={this.pageTransition} to="/case/nookstockholm">
                             <figure style={{  backgroundImage: 'url(' + nookImg + ')' }}></figure>
                             <div className="overlay"></div>
-                        </Link>
+                        </Link> */}
+                        <a href="http://www.nookstockholm.com" target="_blank" rel="noopener noreferrer">
+                            <figure style={{ backgroundImage: 'url(' + nookImg + ')' }}></figure>
+                            <div className="overlay"></div>
+                        </a>
                     </Tilt>
                 </section>
 
@@ -115,11 +133,16 @@ export default class CaseSection extends Component {
                         <p>Frontend Developer</p>
                         <p>Javascript</p>
                     </div>
-                    <Tilt options={{ max : 25, scale: 1 }}>
-                        <Link onClick={this.pageTransition} to="/case/smartbokr-webb">
+                    <Tilt options={{ max: 25, scale: 1 }}>
+                        {/* <Link onClick={this.pageTransition} to="/case/smartbokr-webb">
                             <figure style={{  backgroundImage: 'url(' + nordeaCase + ')' }}></figure>
                             <div className="overlay"></div>
-                        </Link>
+                        </Link> */}
+
+                        <a href="https://www.nordea.se" target="_blank" rel="noopener noreferrer">
+                            <figure style={{ backgroundImage: 'url(' + nordeaCase + ')' }}></figure>
+                            <div className="overlay"></div>
+                        </a>
                     </Tilt>
                 </section>
             </article>

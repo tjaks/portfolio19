@@ -1,5 +1,9 @@
+$height: 80vh;
+$width: 550px;
+
+
 .case-section {
-  padding: 2rem;
+  padding: 2rem 0;
   height: 100%;
   background: #f9f9f9;
   width: 100%;
@@ -11,11 +15,20 @@
   &__item {
     max-width: 800px;
     display: flex;
-    padding: 2rem;
+    margin-bottom: 5rem;
     position: relative;
+    @media(max-width:600px){
+      width: 100%;
+      flex-direction: column;
+    }
+    
     &--text {
       margin-right: -5rem;
       z-index: 100;
+      @media(max-width:600px){
+        padding-left: 1rem;
+        margin: 2rem 0 -2rem 0;
+      }
     }
 
     h2, p {
@@ -27,9 +40,14 @@
       background-size: cover;
       background-position: center;
       align-self: center;
-      width: 350px;
-      height: 550px;
-
+      width: $width;
+      height: $height;
+      @media(max-width:600px){
+        width: 300px;
+        height: 70vh;
+        margin: 0 auto;
+      }
+      
     }
   }
   .overlay {
@@ -38,8 +56,8 @@
     position: absolute;
     z-index: 90;
     align-self: center;
-    width: 350px;
-    height: 550px;
+    width: $width;
+    height: $height;
     right: 2.5rem;
     top: 1rem;
     &:hover {
