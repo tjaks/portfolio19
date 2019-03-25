@@ -19,6 +19,16 @@
             opacity: .7;
             margin: 0;
         }
+
+        &__img {
+            margin-top: -5rem;
+            height: auto;
+            border-radius: 2rem;
+            align-self: center;
+            box-shadow: 0 0 30px #ccc;
+            border: 6px solid #000;
+            margin-bottom: 5rem;
+        }
     }
     &__header-image {
         width: 100%;
@@ -37,6 +47,7 @@
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
+        flex-direction: column;
 
         div {
             flex-basis: 50%;

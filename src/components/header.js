@@ -83,19 +83,22 @@ export default class Header extends Component {
                     </Link>
                     <ul>
                         <li>
-                            <a onClick={this.showContact} className="hoverBG">
-                                <span>Contact</span>
-                            </a>
+                            <Link onClick={this.pageTransition} to="/" className="hoverBG">
+                                <span>Home & Work</span>
+                            </Link>
                         </li>
+
                         <li>
                             <Link onClick={this.pageTransition} to="/about" className="hoverBG">
                                 <span>About</span>
                             </Link>
                         </li>
-                        <li> 
-                            <Link onClick={this.pageTransition} to="/" className="hoverBG">
-                                <span>Home & Work</span>
-                            </Link>
+
+
+                        <li>
+                            <a onClick={this.showContact} className="hoverBG">
+                                <span>Contact</span>
+                            </a>
                         </li>
                     </ul>
                 </nav>
