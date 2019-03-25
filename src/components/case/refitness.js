@@ -59,11 +59,12 @@ export default class refitness extends Component {
                     </div>
                     <div>
                         <h3>Brief</h3>
-                        <p>A total redesign of their website. With wireframes and Information Architecture. Delivered in invision studio and balsamiq.</p>
+                        <p>A total redesign of their website. With wireframes and Information Architecture. Delivered in invision studio and balsamiq.<br/>
+                        The new website is supposed to increase conversion, answer questions and represent the company as a modern and easier way to get healthier and stronger.</p>
                     </div>
                     <div>
                         <h3>Role</h3>
-                        <p>My Role as a Designer is to work across the entire product lifecycle, from product discovery to product development and through multiple product iterations.
+                        <p>My Role as the designer is to work across the entire product lifecycle, from product discovery to product development and through multiple product iterations.
                         </p>
                         <p> To ensure the best possible experience for the users. </p>
                     </div>
