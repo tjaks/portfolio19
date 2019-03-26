@@ -23,14 +23,19 @@
         &__img {
             margin-top: -5rem;
             height: auto;
-            border-radius: 2rem;
+            width: 150%;
+            // border-radius: 2rem;
             align-self: center;
             box-shadow: 0 0 30px #ccc;
-            border: 6px solid #000;
+            // border: 6px solid #000;
             margin-bottom: 5rem;
 
             @media (max-width: 600px) {
                 margin-top: 3rem;
+            }
+
+            &--100 {
+                width: 100%;
             }
         }
     }
@@ -61,6 +66,10 @@
             @media (max-width: 600px) {
                 width: 100%;
             }
+        }
+        &--100 {
+            margin: 2rem 0;
+            width: 100%;
         }
     }
     &__video-section {

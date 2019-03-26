@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import ScrollDownArrow from '../../media/arrow-down-animation.gif';
-import img1 from '../../media/refitness-mobile.png';
+import img1 from '../../media/refitnessmockup.png';
 import img2 from '../../media/refitness-wireframe.png';
+import img3 from '../../media/refitness-start.jpg';
+import img4 from '../../media/refitness-movie.gif';
 
 
 
@@ -72,15 +74,19 @@ export default class refitness extends Component {
 
                 <section className="case-study__info container">
                     <div>
-                        <h3>I started of with interviews, competitions analysis and creating personas</h3>
+                        <h3>The process</h3>
+                        <p>I started of with interviews, competition analysis and creating personas.</p>
                     </div>
-                    <img className="" src={ img2 } style={styles} alt="Refitness Case Study wireframe" />
+                    <img className="" src={ img2 } alt="Refitness Case Study wireframe" />
 
                     <div>
-                        <h3>Next was creating different lo-fi versions, to discuss with my customer to get input and feedback.</h3>
-                        <p>We decided to go with images in column 2 , with column 3 as an example of showing a banner for campaigns.</p>
+                        <h3>Next was creating different lo-fi versions, for each page, to discuss with my customer to get input and feedback.</h3>
+                        <p>Here is an exampel where we decided to go with images in column 2 , with column 3 as an example of showing a banner for campaigns.</p>
                     </div>
-                    <img className="" src={ img2 } style={styles} alt="Refitness Case Study wireframe" />
+                    <img className="" src={ img2 }  alt="Refitness Case Study wireframe" />
+                    <img className="mobile-mockup" src={ img3 }   alt="Refitness Case Study startpage" />
+                    <img className="case-study__info--100" src={ img4 }  alt="Refitness Case Study movie" />
+
                 </section>
             </article>
         );
