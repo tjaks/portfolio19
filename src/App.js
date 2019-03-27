@@ -8,6 +8,7 @@ import About from './components/about';
 import smartbokrWebb from './components/case/smartbokr-webb';
 import nookstockholm from './components/case/nookstockholm';
 import refitness from './components/case/refitness';
+import smartbokrApp from './components/case/smartbokr-app';
 
 
 class App extends Component {
@@ -18,6 +19,7 @@ class App extends Component {
           <div className="animations">
             <Header />
             <Switch>
+              <Route path="/case/smartbokrapp" component={smartbokrApp} />
             <Route path="/case/refitness" component={refitness} />
             <Route path="/case/nookstockholm" component={nookstockholm} />
               <Route path="/case/smartbokr-webb" component={smartbokrWebb} />

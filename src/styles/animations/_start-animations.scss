@@ -57,4 +57,15 @@ body {
         }*/
 }
 
+@keyframes fadeInUp {
+    from {
+        transform: translateY(3%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
 

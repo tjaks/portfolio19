@@ -3,10 +3,11 @@ import { Link } from 'react-router-dom';
 import Waypoint from 'react-waypoint';
 import ScrollableAnchor, { configureAnchors, removeHash, goToAnchor } from 'react-scrollable-anchor';
 import nookImg from '../../media/nook-bg.jpg';
-import smartBokr from '../../media/smartBokr-mockup.png';
+import smartBokr from '../../media/smartbokr-website.png';
 import smartBokrApp from '../../media/3.jpg';
 import walkingSuit from '../../media/walking-suit.jpg';
 import nordeaCase from '../../media/nordeacase.png';
+import refitness from '../../media/refitnessmockup.png';
 import { fixedBody } from '../utils';
 import Tilt from 'react-tilt'
 
@@ -58,7 +59,7 @@ export default class CaseSection extends Component {
                     </div>
                     <Tilt options={ { max: 25, scale: 1 } }>
                         <Link onClick={ this.pageTransition } to="/case/refitness">
-                            <figure style={ { backgroundImage: 'url(' + smartBokr + ')' } }></figure>
+                            <figure style={ { backgroundImage: 'url(' + refitness + ')' } }></figure>
                             <div className="overlay"></div>
                         </Link>
                         { /*<a href="https://www.smartbokr.com" target="_blank" rel="noopener noreferrer">*/ }
@@ -95,15 +96,15 @@ export default class CaseSection extends Component {
                         <p>React.js</p>
                     </div>
                     <Tilt options={ { max: 25, scale: 1 } }>
-                        { /* <Link onClick={this.pageTransition} to="/case/smartbokr-webb">
+                       <Link onClick={this.pageTransition} to="/case/smartbokrapp">
                             <figure style={{  backgroundImage: 'url(' + smartBokrApp + ')' }}></figure>
                             <div className="overlay"></div>
-                        </Link> */ }
+                        </Link>
 
-                        <a href="https://inhouse.smartbokr.com" target="_blank" rel="noopener noreferrer">
-                            <figure style={ { backgroundImage: 'url(' + smartBokrApp + ')' } }></figure>
-                            <div className="overlay"></div>
-                        </a>
+                        {/*<a href="https://inhouse.smartbokr.com" target="_blank" rel="noopener noreferrer">*/}
+                            {/*<figure style={ { backgroundImage: 'url(' + smartBokrApp + ')' } }></figure>*/}
+                            {/*<div className="overlay"></div>*/}
+                        {/*</a>*/}
                     </Tilt>
                 </section>
 

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import ScrollDownArrow from '../../media/arrow-down-animation.gif';
 import img1 from '../../media/refitnessmockup.png';
-import img2 from '../../media/refitness-wireframe.png';
+import img2 from '../../media/refitness-mockups.png';
 import img3 from '../../media/refitness-start.jpg';
 import img4 from '../../media/refitness-movie.gif';
 
@@ -17,31 +16,22 @@ export default class refitness extends Component {
         };
     }
 
-    _onMouseMove(e) {
-        this.setState({ x: e.nativeEvent.offsetX, y: e.nativeEvent.offsetY });
-    }
-
     render() {
-        const styles = {
-            transform: `rotateX(` + -this.state.y/30 + `deg) rotateY(` + -this.state.x/30 + `deg) scale3d(1, 1, 1)`
-        }
         return (
             <article>
                 <div className="page-transition">
                     <h2>reFitness</h2>
                 </div>
-                <section className="startpage">
+                <section className="case-study__jumbotron">
                     {/*<img className="arrow__animation" src={ ScrollDownArrow } alt="arrow down"/>*/}
-                    <div className="startpage__headline-container">
-                    </div>
-                    <div className="startpage__headline">
-                        <h1>reFitness, Swedens second largest<span>Online Personal Trainer</span>
+                    <div className="case-study__headline">
+                        <h1><span>reFitness.se </span><span>The second largest online personal trainer in Sweden.</span>
                         </h1>
                     </div>
 
-                    <div className="startpage__textline">
+                    <div className="case-study__textline">
                         <p>
-                            I was lucky to be trusted with the redesign of reFitness webb.
+                            I was trusted with the redesign of reFitness website.
                             With 75% of all their website visits coming from mobile, It was obvious of having a mobile first approach.
                             80% of all their visitors are females between 25-40 years old,
                             so I designed for them, but I didn't want to scare away the rest, being men 30-50 years old.
@@ -52,9 +42,8 @@ export default class refitness extends Component {
 
                     {/*<img className="startpage__image" src={ GlitchImage } style={styles} alt="Glitch Profile" />*/}
                 </section>
-
+                <img  className="case-study__header__img" src={ img1 }  alt="Refitness Case Study" />
                 <section className="case-study__info container">
-                    <img className="case-study__header__img" src={ img1 } style={styles} alt="Refitness Case Study" />
                     <div>
                         <h3>Client</h3>
                         <p>ReFitness.se, <br/> At reFitness you  get personal training and diet plans online from a trained PT.</p>
@@ -75,17 +64,21 @@ export default class refitness extends Component {
                 <section className="case-study__info container">
                     <div>
                         <h3>The process</h3>
-                        <p>I started of with interviews, competition analysis and creating personas.</p>
+                        <p>I started of with interviews, competitive analysis and creating personas.</p>
                     </div>
-                    <img className="" src={ img2 } alt="Refitness Case Study wireframe" />
+
 
                     <div>
-                        <h3>Next was creating different lo-fi versions, for each page, to discuss with my customer to get input and feedback.</h3>
+                        <p>Next was creating different lo-fi versions, for each page, to discuss with my customer to get input and feedback.</p>
                         <p>Here is an exampel where we decided to go with images in column 2 , with column 3 as an example of showing a banner for campaigns.</p>
                     </div>
-                    <img className="" src={ img2 }  alt="Refitness Case Study wireframe" />
-                    <img className="mobile-mockup" src={ img3 }   alt="Refitness Case Study startpage" />
-                    <img className="case-study__info--100" src={ img4 }  alt="Refitness Case Study movie" />
+                    <img className="case-study__info--100" src={ img2 }  alt="Refitness Case Study wireframe" />
+
+                    <h3>A mobile first approach</h3>
+                    <p>With a client base almost only coming from social media platforms, the numbers are really high for mobile visitors. Having an mobile first approach was a given.</p>
+                    <p>This color palette is inspired by the ocean, with the 2019 years color, "Living Coral" and a background inspired from deep sea.</p>
+                    <img className="mobile-mockup case-study__info--shadow" src={ img3 }   alt="Refitness Case Study startpage" />
+                    <img className="case-study__info--100 case-study__info--shadow" src={ img4 }  alt="Refitness Case Study movie" />
 
                 </section>
             </article>
