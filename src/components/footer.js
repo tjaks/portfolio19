@@ -18,7 +18,7 @@ export default class OurFunctions extends Component {
                         </div>
                         <div className="footer__section">
               
-                                <h3> Sociala media.</h3>
+                                <h3> Social media.</h3>
                     
                             <div className="">
                                 <img src={ facebook } />

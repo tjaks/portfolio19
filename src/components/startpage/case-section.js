@@ -17,7 +17,7 @@ export default class CaseSection extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            backgroundColor: "#FFF",
+            backgroundColor: "#ccc",
             activeCase: "",
             sideNav: false,
             rollUpAnimation: false
@@ -41,7 +41,7 @@ export default class CaseSection extends Component {
 
     caseWaypointLeave() {
         this.setState({
-            backgroundColor: "#f9f9f9",
+            backgroundColor: "#ccc",
             activeCase: "",
             rollUpAnimation: true,
         });
@@ -77,14 +77,14 @@ export default class CaseSection extends Component {
                         <p>wordpress</p>
                     </div>
                     <Tilt options={ { max: 25, scale: 1 } }>
-                        { /* <Link onClick={this.pageTransition} to="/case/smartbokr-webb">
-                                <figure style={{  backgroundImage: 'url(' + smartBokr + ')' }}></figure>
-                                <div className="overlay"></div>
-                            </Link> */ }
-                        <a href="https://www.smartbokr.com" target="_blank" rel="noopener noreferrer">
+                        <Link onClick={ this.pageTransition } to="/case/smartbokrwebsite">
                             <figure style={ { backgroundImage: 'url(' + smartBokr + ')' } }></figure>
                             <div className="overlay"></div>
-                        </a>
+                        </Link>
+                        { /*<a href="https://www.smartbokr.com" target="_blank" rel="noopener noreferrer">*/ }
+                        { /*<figure style={ { backgroundImage: 'url(' + smartBokr + ')' } }></figure>*/ }
+                        { /*/!*<div className="overlay"></div>*!/*/ }
+                        { /*</a>*/ }
                     </Tilt>
                 </section>
 
@@ -96,15 +96,10 @@ export default class CaseSection extends Component {
                         <p>React.js</p>
                     </div>
                     <Tilt options={ { max: 25, scale: 1 } }>
-                       <Link onClick={this.pageTransition} to="/case/smartbokrapp">
-                            <figure style={{  backgroundImage: 'url(' + smartBokrApp + ')' }}></figure>
+                        <Link onClick={ this.pageTransition } to="/case/smartbokrapp">
+                            <figure style={ { backgroundImage: 'url(' + smartBokrApp + ')' } }></figure>
                             <div className="overlay"></div>
                         </Link>
-
-                        {/*<a href="https://inhouse.smartbokr.com" target="_blank" rel="noopener noreferrer">*/}
-                            {/*<figure style={ { backgroundImage: 'url(' + smartBokrApp + ')' } }></figure>*/}
-                            {/*<div className="overlay"></div>*/}
-                        {/*</a>*/}
                     </Tilt>
                 </section>
 
@@ -136,14 +131,14 @@ export default class CaseSection extends Component {
                         <p>Wordpress</p>
                     </div>
                     <Tilt options={ { max: 25, scale: 1 } }>
-                        { /* <Link onClick={this.pageTransition} to="/case/nookstockholm">
-                            <figure style={{  backgroundImage: 'url(' + nookImg + ')' }}></figure>
-                            <div className="overlay"></div>
-                        </Link> */ }
-                        <a href="http://www.nookstockholm.com" target="_blank" rel="noopener noreferrer">
+                        <Link onClick={ this.pageTransition } to="/case/nookstockholm">
                             <figure style={ { backgroundImage: 'url(' + nookImg + ')' } }></figure>
                             <div className="overlay"></div>
-                        </a>
+                        </Link>
+                        { /*// <a href="http://www.nookstockholm.com" target="_blank" rel="noopener noreferrer">*/ }
+                        { /*// <figure style={ { backgroundImage: 'url(' + nookImg + ')' } }></figure>*/ }
+                        { /*// <div className="overlay"></div>*/ }
+                        { /*// </a>*/ }
                     </Tilt>
                 </section>
 

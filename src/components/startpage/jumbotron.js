@@ -48,13 +48,13 @@ export default class Jumbotron extends Component {
                 <div className="startpage__headline-container">
                 </div>
                 <div className="startpage__headline">
-                    <h1>Passionated Digital Product Designer <span> based in Stockholm.</span>
+                    <h1>Digital Product Designer <span> based in Stockholm.</span>
                     </h1>
                 </div>
 
                 <div className="startpage__textline">
                     <p>
-                        My name is Tommy, I am passionate about
+                        My name is Tommy Jaks, I am passionate about
                             creating the best experiences on the web with a combination of design and code.
                     </p>
                     <p> Scroll down to see my selected work.</p>
