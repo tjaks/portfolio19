@@ -7,7 +7,6 @@ import Footer from './components/footer';
 import Header from './components/header';
 import About from './components/about';
 import smartbokrWebb from './components/case/smartbokr-webb';
-import nookstockholm from './components/case/nookstockholm';
 import refitness from './components/case/refitness';
 import smartbokrApp from './components/case/smartbokr-app';
 import smartbokrWebsite from './components/case/smartbokr-website';

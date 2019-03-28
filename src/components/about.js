@@ -48,14 +48,16 @@ export default class About extends Component {
                             <li><span>Villa Kärnbo B&B</span></li>
                         </ul>
                     </section>
+
                     <div className="about__paragraph">
+                        <h3>Tommy Jaks</h3>
                         <p>As a creative and rigorous designer with background as a developer, I regard user-centered
                             design, empathy, and creativity as my design philosophy.</p>
                         <p>
-                            I believe it is essential for a designer to think problems outside the box, and always
-                            create user experience from a panoramic view,
-                            get familiar with the life-cycle of product development, and explore the potential needs of
-                            consumers through iterative research and simulation.
+                            I believe it is essential for a designer to think about problems, outside the box, and always
+                            create user experience from a panoramic view.
+                            Get familiar with the life-cycle of product development, and explore the potential needs of
+                            consumers through multiple iterations.
                         </p>
                     </div>
                     <hr/>

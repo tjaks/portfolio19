@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import headerBg from '../../media/smartbokr-webb.png';
 import nookVideoImg from '../../media/nook.png';
 import nookVideo from '../../media/smartbokr-video.mp4';
 

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Waypoint from 'react-waypoint';
-import ScrollableAnchor, { configureAnchors, removeHash, goToAnchor } from 'react-scrollable-anchor';
 import nookImg from '../../media/nook-bg.jpg';
 import smartBokr from '../../media/smartbokr-website.png';
 import smartBokrApp from '../../media/3.jpg';
@@ -55,7 +54,7 @@ export default class CaseSection extends Component {
                 <section className="case-section__item">
                     <div className="case-section__item--text">
                         <h2>reFitness.se</h2>
-                        <p>Product Design</p>
+                        <p>#ProductDesign</p>
                     </div>
                     <Tilt options={ { max: 25, scale: 1 } }>
                         <Link onClick={ this.pageTransition } to="/case/refitness">
@@ -72,9 +71,7 @@ export default class CaseSection extends Component {
                 <section className="case-section__item">
                     <div className="case-section__item--text">
                         <h2>SmartBokr.com</h2>
-                        <p>UI/UX</p>
-                        <p>Developer</p>
-                        <p>wordpress</p>
+                        <p>#UI/UX #Developer #Wordpress</p>
                     </div>
                     <Tilt options={ { max: 25, scale: 1 } }>
                         <Link onClick={ this.pageTransition } to="/case/smartbokrwebsite">
@@ -91,9 +88,7 @@ export default class CaseSection extends Component {
                 <section className="case-section__item">
                     <div className="case-section__item--text">
                         <h2>SmartBokr App</h2>
-                        <p>UI/UX</p>
-                        <p>CSS & Animations</p>
-                        <p>React.js</p>
+                        <p>#UI/UX #CSS #Animations #React.js</p>
                     </div>
                     <Tilt options={ { max: 25, scale: 1 } }>
                         <Link onClick={ this.pageTransition } to="/case/smartbokrapp">
@@ -106,9 +101,7 @@ export default class CaseSection extends Component {
                 <section className="case-section__item nook">
                     <div className="case-section__item--text">
                         <h2>Quedro.com</h2>
-                        <p>UI/UX</p>
-                        <p>Developer</p>
-                        <p>Wordpress</p>
+                        <p>#UI/UX #Developer #Wordpress</p>
                     </div>
                     <Tilt options={ { max: 25, scale: 1 } }>
                         { /* <Link onClick={this.pageTransition} to="/case/smartbokr-webb">
@@ -126,9 +119,7 @@ export default class CaseSection extends Component {
                 <section className="case-section__item nook">
                     <div className="case-section__item--text">
                         <h2>Nook Stockholm</h2>
-                        <p>UI/UX</p>
-                        <p>Developer</p>
-                        <p>Wordpress</p>
+                        <p>#UI/UX #Developer #Wordpress</p>
                     </div>
                     <Tilt options={ { max: 25, scale: 1 } }>
                         <Link onClick={ this.pageTransition } to="/case/nookstockholm">
@@ -145,8 +136,7 @@ export default class CaseSection extends Component {
                 <section className="case-section__item nook">
                     <div className="case-section__item--text">
                         <h2>Nordea Retail</h2>
-                        <p>Frontend Developer</p>
-                        <p>Javascript</p>
+                        <p>#FrontendDev #ES6</p>
                     </div>
                     <Tilt options={ { max: 25, scale: 1 } }>
                         { /* <Link onClick={this.pageTransition} to="/case/smartbokr-webb">

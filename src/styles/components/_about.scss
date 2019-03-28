@@ -75,13 +75,9 @@
         padding: 2rem 0;
         width: 100%;
         position: relative;
-        @media( max-width: 600px) {
-            padding: 2rem 0rem;
-            p, h3 {
-                padding: 0 1rem;
-            }
+        p, h3 {
+            padding: 0 1rem;
         }
-
         li {
             font-family: "consolas", monospace;
             padding: .25rem 1rem;

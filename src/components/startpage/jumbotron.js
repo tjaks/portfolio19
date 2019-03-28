@@ -53,7 +53,7 @@ export default class Jumbotron extends Component {
                 </div>
 
                 <div className="startpage__textline">
-                    <p>
+                    <p className="hide-iphone5">
                         My name is Tommy Jaks, I am <b>passionate</b> about
                         creating the best experiences on the web with a combination of <b>design and code.</b>
                     </p>

@@ -160,12 +160,6 @@
       flex-basis: 50%;
     }
 
-    img {
-      @media (max-width: 600px) {
-        width: 100%;
-      }
-    }
-
     &--100 {
       margin: 2rem 0;
       width: 100%;

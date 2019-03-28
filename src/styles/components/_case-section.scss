@@ -31,8 +31,15 @@ $width: 550px;
       }
     }
 
-    h2, p {
+    h2 {
       color: #fff;
+    }
+    p {
+      color: #fff;
+      font-weight: bold;
+      background: blue;
+      padding: .5rem;
+      width: 8rem;
     }
 
     figure {

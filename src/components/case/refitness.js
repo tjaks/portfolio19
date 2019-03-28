@@ -41,9 +41,7 @@ export default class refitness extends Component {
                     <div className="case-study__textline">
                         <p>
                             I was trusted with the redesign of reFitness website.
-                            With 75% of all their website visits coming from mobile, It was obvious of having a mobile first approach.
-                            80% of all their visitors are females between 25-40 years old,
-                            so I designed for them, but I didn't want to scare away the rest, being men 30-50 years old.
+                            With 75% of all their website visits coming from mobile, it was obvious to design with a mobile first approach.
                         </p>
                         <p> Scroll down to see the result.</p>
                         <button onClick={this.scrollWindow} className="button button__round"><i className="fa fa-long-arrow-down" aria-hidden="true"></i></button>
@@ -59,8 +57,10 @@ export default class refitness extends Component {
                     </div>
                     <div>
                         <h3>Brief</h3>
-                        <p>A total redesign of their website. With wireframes and Information Architecture. Delivered in invision studio and balsamiq.<br/>
+                        <p>A total redesign of their website. With wireframes and Information Architecture. Delivered in Invision studio and Balsamiq.<br/>
                         The new website is supposed to increase conversion, answer questions and represent the company as a modern and easier way to get healthier and stronger.</p>
+                        <p>80% of all their visitors are females between 25-40 years old, so the design should be appealing for them.
+                            But without scaring away the rest, which is men 30-50 years old.</p>
                     </div>
                     <div>
                         <h3>Role</h3>

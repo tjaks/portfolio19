@@ -134,11 +134,18 @@ input {
     display: none;
 }
 
+.hide-iphone5 {
+    @media (max-width: 321px) {
+        display: none;
+    }
+}
+
 .show {
     display: block;
 }
 
 .mobile-mockup {
     width: 300px;
+    height: auto;
 }
 
