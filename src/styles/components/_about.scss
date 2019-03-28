@@ -1,5 +1,5 @@
 .about {
-    height: 100vh;
+    height: 100%;
     width: 100%;
     display: table;
     background: url('./media/walkingtommy.png') no-repeat right top fixed;
@@ -41,7 +41,13 @@
         }
         @media( max-width:600px) {
             padding: 50px 0px;
+            flex-direction: column;
         }
+
+        &--grey {
+            color: #999;
+        }
+
         i {
             color: #222;
             position: absolute;
@@ -52,7 +58,7 @@
 
         h3 {
             text-align: left;
-            padding: 1rem;
+            padding: .5rem;
         }
 
         p {
@@ -66,9 +72,16 @@
     }
     &__paragraph {
         background: #FFF;
-        padding: 100px 50px;
+        padding: 2rem 0;
         width: 100%;
         position: relative;
+        @media( max-width: 600px) {
+            padding: 2rem 0rem;
+            p, h3 {
+                padding: 0 1rem;
+            }
+        }
+
         li {
             font-family: "consolas", monospace;
             padding: .25rem 1rem;
@@ -79,10 +92,7 @@
         display: flex;
         height: 100%;
         header {
-            height: 2rem;
-            @media( max-width:600px) {
-                height: 5rem;
-            }
+            height: 5rem;
         }
         ul {
             display: flex;

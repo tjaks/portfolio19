@@ -54,10 +54,10 @@ export default class Jumbotron extends Component {
 
                 <div className="startpage__textline">
                     <p>
-                        My name is Tommy Jaks, I am passionate about
-                            creating the best experiences on the web with a combination of design and code.
+                        My name is Tommy Jaks, I am <b>passionate</b> about
+                        creating the best experiences on the web with a combination of <b>design and code.</b>
                     </p>
-                    <p> Scroll down to see my selected work.</p>
+                    <p> <b>Scroll</b> down to see my selected work.</p>
                     <button onClick={this.scrollWindow} className="button button__round"><i className="fa fa-long-arrow-down" aria-hidden="true"></i></button>
                 </div>
 
