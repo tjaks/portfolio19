@@ -22,10 +22,9 @@ export default class About extends Component {
                                 </h3>
                             </div>
                             <div>
-                                <h3>Creative problem solver.</h3>
+                                <h3>Creative, data driven problem solver.</h3>
                                 <h3 className="about__header--grey">
-                                    I believe in prototyping, early and do quick releases to test the product.
-                                    To iterate and quickly improve with real users, in real situations.</h3>
+                                    I always strive to make my design choices on arguments based on customer insights and best practice for digital service development.</h3>
                             </div>
                             <i className="fa fa-long-arrow-down fa-2x" aria-hidden="true"></i>
 
@@ -52,7 +51,7 @@ export default class About extends Component {
                     <div className="about__paragraph">
                         <h3>Tommy Jaks</h3>
                         <p>As a creative and rigorous designer with background as a developer, I regard user-centered
-                            design, empathy, and creativity as my design philosophy.</p>
+                            design, empathy, and creativity as my design philosophy. With a deep understanding of technology and development.</p>
                         <p>
                             I believe it is essential for a designer to think about problems, outside the box, and always
                             create user experience from a panoramic view.

@@ -75,18 +75,17 @@ export default class refitness extends Component {
                         <h3>The process</h3>
                         <p>I started of with interviews, competitive analysis and creating personas.</p>
                     </div>
-
-
                     <div>
-                        <p>Next was creating different lo-fi versions, for each page, to discuss with my customer to get input and feedback.</p>
-                        <p>Here is an exampel where we decided to go with images in column 2 , with column 3 as an example of showing a banner for campaigns.</p>
+                        <p>Next was creating different lo-fi versions, for each page.</p>
+                        <p>Here is an example where we decided to go with images in column 2, with column 3 as an example of showing a banner for campaigns.</p>
                     </div>
                     <img className="case-study__info--100" src={ img2 }  alt="Refitness Case Study wireframe" />
 
                     <h3>A mobile first approach</h3>
                     <p>With a client base almost only coming from social media platforms, the numbers are really high for mobile visitors. Having an mobile first approach was a given.</p>
-                    <p>This color palette is inspired by the ocean, with the 2019 years color, "Living Coral" and a background inspired from deep sea.</p>
+                    <p>The color palette is inspired by the ocean, with the 2019 years color, "Living Coral" and a background inspired from deep sea.</p>
                     <img className="mobile-mockup case-study__info--shadow" src={ img3 }   alt="Refitness Case Study startpage" />
+                    <h3>An example of animations for desktop.</h3>
                     <img className="case-study__info--100 case-study__info--shadow" src={ img4 }  alt="Refitness Case Study movie" />
                 </section>
 
