@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-
+import { Link } from 'react-router-dom';
+import { fixedBody } from '../utils';
 
 export default class RiktigVykort extends Component {
 

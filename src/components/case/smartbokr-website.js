@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import { fixedBody } from '../utils';
 import img1 from '../../media/smartbokr-web-startpage.png';
 import img2 from '../../media/smartbokr-web-wireframe.png';
 import img3 from '../../media/smartbokr-web-desktop-startpage.jpg';
@@ -15,8 +17,13 @@ export default class smartbokrWebsite extends Component {
             x: 0,
             y: 0,
         };
+        this.pageTransition = this.pageTransition.bind(this);
     }
 
+    pageTransition(){
+        fixedBody();
+    }
+    
     render() {
         return (
             <article>
@@ -98,7 +105,11 @@ export default class smartbokrWebsite extends Component {
                     <img className="case-study__info--100 case-study__info--shadow" src={ img3 }
                          alt="Refitness Case Study startpage"/>
                 </section>
-
+                <Link onClick={this.pageTransition} to="/case/nookstockholm">
+                    <section className="contactMe">
+                        <h2>Next <i className="fa fa-long-arrow-right" aria-hidden="true"></i> Nook Stockholm Web</h2>
+                    </section>
+                </Link>
             </article>
         );
     }

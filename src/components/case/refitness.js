@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import { fixedBody } from '../utils';
 import img1 from '../../media/refitnessmockup.png';
 import img2 from '../../media/refitness-mockups.png';
 import img3 from '../../media/refitness-start.jpg';
@@ -14,6 +16,11 @@ export default class refitness extends Component {
             x: 0,
             y: 0,
         };
+        this.pageTransition = this.pageTransition.bind(this);
+    }
+
+    pageTransition(){
+        fixedBody();
     }
 
     render() {
@@ -22,6 +29,7 @@ export default class refitness extends Component {
                 <div className="page-transition">
                     <h2>reFitness</h2>
                 </div>
+
                 <section className="case-study__jumbotron">
                     {/*<img className="arrow__animation" src={ ScrollDownArrow } alt="arrow down"/>*/}
                     <div className="case-study__headline">
@@ -79,8 +87,13 @@ export default class refitness extends Component {
                     <p>This color palette is inspired by the ocean, with the 2019 years color, "Living Coral" and a background inspired from deep sea.</p>
                     <img className="mobile-mockup case-study__info--shadow" src={ img3 }   alt="Refitness Case Study startpage" />
                     <img className="case-study__info--100 case-study__info--shadow" src={ img4 }  alt="Refitness Case Study movie" />
-
                 </section>
+
+                <Link onClick={this.pageTransition} to="/case/smartbokrapp">
+                    <section className="contactMe">
+                        <h2>Next <i className="fa fa-long-arrow-right" aria-hidden="true"></i> SmartBokr App</h2>
+                    </section>
+                </Link>
             </article>
         );
     }

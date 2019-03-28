@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import { fixedBody } from '../utils';
 import img1 from '../../media/3.jpg';
 import img2 from '../../media/smartbokr-app-lofi.png';
 import img3 from '../../media/smartbokr-app-mobile-mockup.jpg';
@@ -15,6 +17,11 @@ export default class smartbokrApp extends Component {
             x: 0,
             y: 0,
         };
+        this.pageTransition = this.pageTransition.bind(this);
+    }
+
+    pageTransition(){
+        fixedBody();
     }
 
     render() {
@@ -96,9 +103,12 @@ export default class smartbokrApp extends Component {
                 </section>
                 <img className="mobile-mockup case-study__info--100" src={ img3 }
                      alt="Refitness Case Study startpage"/>
-                <img className="case-study__info--100 case-study__info--shadow" src={ img4 }
-                     alt="Refitness Case Study movie"/>
 
+                <Link onClick={this.pageTransition} to="/case/smartbokrwebsite">
+                    <section className="contactMe">
+                        <h2>Next <i className="fa fa-long-arrow-right" aria-hidden="true"></i> SmartBokr Product Landing Page</h2>
+                    </section>
+                </Link>
 
             </article>
         );

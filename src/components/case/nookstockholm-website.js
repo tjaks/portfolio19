@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import { fixedBody } from '../utils';
 import img1 from '../../media/nook-bg.jpg';
 import img2 from '../../media/nookvideo2.mp4';
 import img3 from '../../media/smartbokr-web-desktop-startpage.jpg';
@@ -15,6 +17,11 @@ export default class nookstockholmWebsite extends Component {
             x: 0,
             y: 0,
         };
+        this.pageTransition = this.pageTransition.bind(this);
+    }
+
+    pageTransition(){
+        fixedBody();
     }
 
     render() {
@@ -79,7 +86,11 @@ export default class nookstockholmWebsite extends Component {
                         <video className="case-study__info--shadow" src={img2} loop autoPlay controls poster={img1} />
                     </div>
                 </section>
-
+                <Link onClick={this.pageTransition} to="/case/nordea">
+                    <section className="contactMe">
+                        <h2>Next <i className="fa fa-long-arrow-right" aria-hidden="true"></i> Nordea</h2>
+                    </section>
+                </Link>
             </article>
         );
     }
