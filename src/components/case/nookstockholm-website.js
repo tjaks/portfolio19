@@ -33,8 +33,9 @@ export default class nookstockholmWebsite extends Component {
                 <section className="case-study__jumbotron">
                     { /*<img className="arrow__animation" src={ ScrollDownArrow } alt="arrow down"/>*/ }
                     <div className="case-study__headline">
-                        <h1><span>nookstockholm.com</span><span>Website based on Wordpress for a hairdresser studio.</span>
+                        <h1><span>nookstockholm.com</span>
                         </h1>
+                        <h5>Website based on Wordpress for a hairdresser studio.</h5>
                     </div>
 
                     <div className="case-study__textline">

@@ -33,8 +33,9 @@ export default class refitness extends Component {
                 <section className="case-study__jumbotron">
                     {/*<img className="arrow__animation" src={ ScrollDownArrow } alt="arrow down"/>*/}
                     <div className="case-study__headline">
-                        <h1><span>reFitness.se </span><span>The second largest online personal trainer in Sweden.</span>
+                        <h1><span>reFitness.se </span>
                         </h1>
+                        <h5>The second largest online personal trainer in Sweden.</h5>
                     </div>
 
                     <div className="case-study__textline">

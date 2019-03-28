@@ -36,7 +36,7 @@ export default class Jumbotron extends Component {
 
     render() {
         const styles = {
-            transform: `rotateX(` + -this.state.y/30 + `deg) rotateY(` + -this.state.x/30 + `deg) scale3d(1, 1, 1)`
+            transform: `perspective(1000px) rotateX(` + -this.state.y/50 + `deg) rotateY(` + -this.state.x/50 + `deg) scale3d(1, 1, 1)`
         }
         return (
             <article  onMouseMove={this._onMouseMove.bind(this)}>

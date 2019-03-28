@@ -23,7 +23,7 @@ export default class smartbokrWebsite extends Component {
     pageTransition(){
         fixedBody();
     }
-    
+
     render() {
         return (
             <article>
@@ -33,8 +33,10 @@ export default class smartbokrWebsite extends Component {
                 <section className="case-study__jumbotron">
                     { /*<img className="arrow__animation" src={ ScrollDownArrow } alt="arrow down"/>*/ }
                     <div className="case-study__headline">
-                        <h1><span>Smartbokr.com</span><span>Landing page for SmartBokr App.</span>
+                        <h1>
+                            <span>Smartbokr.com</span>
                         </h1>
+                        <h5>Landing page for SmartBokr App.</h5>
                     </div>
 
                     <div className="case-study__textline">
@@ -84,10 +86,6 @@ export default class smartbokrWebsite extends Component {
                 <section className="case-study__info container">
                     <div>
                         <h3>The process</h3>
-                        <p>We started of with interviews with Real Estate Agents and their bosses. Potential users in
-                            the age of 30-50.</p>
-                        <p>Then we did competitive analysis to collect data to help us get started. Then we move on to
-                            create personas. </p>
 
                     </div>
 
@@ -98,10 +96,10 @@ export default class smartbokrWebsite extends Component {
                     <img className="case-study__info--100" src={ img2 } alt="Refitness Case Study wireframe"/>
                     <h3>Branding and Design guidelines</h3>
                     <img className="mobile-mockup case-study__info--shadow" src={ img5 } alt="Smartbokr logo"/>
-                    <img className="mobile-mockup case-study__info--100" src={ img6 } alt="Smartbokr design guidelines"/>
-                    <h3>A mobile first approach</h3>
-                    <p>Our interviews learned that most of our clients would promote the application via social media
-                        platforms, so it was a natural thing for us to have a mobile first approach.</p>
+                    {/*<img className="mobile-mockup case-study__info--100" src={ img6 } alt="Smartbokr design guidelines"/>*/}
+                    {/*<h3>A mobile first approach</h3>*/}
+                    {/*<p>Our interviews learned that most of our clients would promote the application via social media*/}
+                        {/*platforms, so it was a natural thing for us to have a mobile first approach.</p>*/}
                     <img className="case-study__info--100 case-study__info--shadow" src={ img3 }
                          alt="Refitness Case Study startpage"/>
                 </section>

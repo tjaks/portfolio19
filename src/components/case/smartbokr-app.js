@@ -20,7 +20,7 @@ export default class smartbokrApp extends Component {
         this.pageTransition = this.pageTransition.bind(this);
     }
 
-    pageTransition(){
+    pageTransition() {
         fixedBody();
     }
 
@@ -33,8 +33,9 @@ export default class smartbokrApp extends Component {
                 <section className="case-study__jumbotron">
                     { /*<img className="arrow__animation" src={ ScrollDownArrow } alt="arrow down"/>*/ }
                     <div className="case-study__headline">
-                        <h1><span>SmartBokr App</span><span>A modern tool for the digitalisation of the Real Estate Business.</span>
+                        <h1><span>SmartBokr App</span>
                         </h1>
+                        <h5>A modern tool for the digitalisation of the Real Estate Business.</h5>
                     </div>
 
                     <div className="case-study__textline">
@@ -96,7 +97,8 @@ export default class smartbokrApp extends Component {
                     <img className="case-study__info--100" src={ img2 } alt="Refitness Case Study wireframe"/>
                     <h3>Branding and Design guidelines</h3>
                     <img className="mobile-mockup" src={ img5 } alt="Smartbokr logo"/>
-                    <img className="mobile-mockup case-study__info--100" src={ img6 } alt="Smartbokr design guidelines"/>
+                    <img className="mobile-mockup case-study__info--100" src={ img6 }
+                         alt="Smartbokr design guidelines"/>
                     <h3>A mobile first approach</h3>
                     <p>Our interviews learned that most of our clients would promote the application via social media
                         platforms, so it was a natural thing for us to have a mobile first approach.</p>
@@ -104,9 +106,9 @@ export default class smartbokrApp extends Component {
                 <img className="mobile-mockup case-study__info--100" src={ img3 }
                      alt="Refitness Case Study startpage"/>
 
-                <Link onClick={this.pageTransition} to="/case/smartbokrwebsite">
+                <Link onClick={ this.pageTransition } to="/case/smartbokrwebsite">
                     <section className="contactMe">
-                        <h2>Next <i className="fa fa-long-arrow-right" aria-hidden="true"></i> SmartBokr Product Landing Page</h2>
+                        <h2>Next <i className="fa fa-long-arrow-right" aria-hidden="true"></i> SmartBokr Website</h2>
                     </section>
                 </Link>
 
