@@ -20,7 +20,7 @@ export default class nookstockholmWebsite extends Component {
         this.pageTransition = this.pageTransition.bind(this);
     }
 
-    pageTransition(){
+    pageTransition() {
         fixedBody();
     }
 
@@ -40,7 +40,8 @@ export default class nookstockholmWebsite extends Component {
 
                     <div className="case-study__textline">
                         <p>
-                        A website to promote the Nook stockholm as a high end, trendsetting hairdresser studio. With all the latest technologies and products.
+                            A website to promote the Nook stockholm as a high end, trendsetting hairdresser studio. With
+                            all the latest technologies and products.
                         </p>
                         <p> Scroll down to see the result.</p>
                         <button onClick={ this.scrollWindow } className="button button__round"><i
@@ -49,10 +50,11 @@ export default class nookstockholmWebsite extends Component {
 
                     { /*<img className="startpage__image" src={ GlitchImage } style={styles} alt="Glitch Profile" />*/ }
                 </section>
-                <img className="case-study__header__img case-study__info--shadow" src={ img1 } alt="Refitness Case Study"/>
-                {/*<div className="case-study__header__img">*/}
-                    {/*<video src={img1} loop autoPlay controls poster={img1} />*/}
-                {/*</div>*/}
+                <img className="case-study__header__img case-study__info--shadow" src={ img1 }
+                     alt="Refitness Case Study"/>
+                { /*<div className="case-study__header__img">*/ }
+                { /*<video src={img1} loop autoPlay controls poster={img1} />*/ }
+                { /*</div>*/ }
                 <section className="case-study__info container">
                     <div>
                         <h3>Project</h3>
@@ -83,11 +85,10 @@ export default class nookstockholmWebsite extends Component {
                 </section>
 
                 <section className="case-study__info container">
-                    <div className="case-study__info--100">
-                        <video className="case-study__info--shadow" src={img2} loop autoPlay controls poster={img1} />
-                    </div>
+                    <video className="case-study__info--shadow case-study__info--100" src={ img2 } loop autoPlay
+                           controls poster={ img1 }/>
                 </section>
-                <Link onClick={this.pageTransition} to="/case/nordea">
+                <Link onClick={ this.pageTransition } to="/case/nordea">
                     <section className="contactMe">
                         <h2>Next <i className="fa fa-long-arrow-right" aria-hidden="true"></i> Nordea</h2>
                     </section>
