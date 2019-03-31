@@ -53,7 +53,7 @@ export default class nookstockholmWebsite extends Component {
                 <img className="case-study__header__img case-study__info--shadow" src={ img1 }
                      alt="Refitness Case Study"/>
                 { /*<div className="case-study__header__img">*/ }
-                { /*<video src={img1} loop autoPlay controls poster={img1} />*/ }
+                { /*<video src={img1} loop autoPlay poster={img1} />*/ }
                 { /*</div>*/ }
                 <section className="case-study__info container">
                     <div>
@@ -86,7 +86,7 @@ export default class nookstockholmWebsite extends Component {
 
                 <section className="case-study__info container">
                     <video className="case-study__info--shadow case-study__info--100" src={ img2 } loop autoPlay
-                           controls poster={ img1 }/>
+                            poster={ img1 }/>
                 </section>
                 <Link onClick={ this.pageTransition } to="/case/nordea">
                     <section className="contactMe">

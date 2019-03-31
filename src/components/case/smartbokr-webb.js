@@ -45,7 +45,7 @@ export default class RiktigVykort extends Component {
                     </section>
                 </div>
                 <div className="case-study__video-section">
-                        <video src={nookVideo} loop autoPlay controls poster={nookVideoImg} />     
+                        <video src={nookVideo} loop autoPlay poster={nookVideoImg} />     
                 </div>
             </section>
         );

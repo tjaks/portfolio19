@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import img1 from '../media/tommy-bildspel.gif';
 
 export default class About extends Component {
     render() {
@@ -55,12 +55,13 @@ export default class About extends Component {
                         <p>
                             I believe it is essential for a designer to think about problems, outside the box, and always
                             create user experience from a panoramic view.
-                            Get familiar with the life-cycle of product development, and explore the potential needs of
+                            Get familiar with the life-cycle of product development and explore the potential needs of
                             consumers through multiple iterations.
                         </p>
                     </div>
                     <hr/>
                     <div className="about__paragraph">
+                    <img className="case-study__info--100" src={ img1 }  alt="Refitness Case Study wireframe" />
                         <h3>I am also...</h3>
                         <p>
                             <b>A football fan</b>, I love watching premier league, play FIFA and play on my own with my
@@ -74,7 +75,7 @@ export default class About extends Component {
                             But also creating my own.
                         </p>
                         <p>
-                            Interested in <b>gym and fitness.</b> Im working out 3-5 days a week, which today is a
+                            Interested in <b>gym and fitness.</b> I am working out 3-5 days a week, which today is a
                             sanctuary for me. Like a therapy session. <br/>
                         </p>
                         <p>
@@ -92,6 +93,7 @@ export default class About extends Component {
                         </p>
                     </div>
                 </section>
+               
             </article>
         );
     }

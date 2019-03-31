@@ -21,14 +21,14 @@ export default class Header extends Component {
 
     componentDidMount() {
         window.addEventListener('scroll', this.handleScroll);
-        document.addEventListener('mousedown', this.handleClickOutside);
+        // document.addEventListener('mousedown', this.handleClickOutside);
         window.addEventListener('mousedown', this.showContact)
         window.addEventListener('mousedown', this.closeContact)
     }
 
     componentWillUnmount() {
         window.removeEventListener('scroll', this.handleScroll);
-        document.removeEventListener('mousedown', this.handleClickOutside);
+        // document.removeEventListener('mousedown', this.handleClickOutside);
         window.removeEventListener('mousedown', this.showContact)
         window.removeEventListener('mousedown', this.closeContact)
     }
@@ -76,7 +76,7 @@ export default class Header extends Component {
     render() {
         return (
             <header>
-                <nav className={"navigation " + (this.state.isScrolled)}>
+                <nav className="navigation">
                     <Link to="/" >
                         {/*<img src="/media/logo.png" />*/}
                         tommyjaks.
@@ -110,14 +110,13 @@ export default class Header extends Component {
                         </div>
 
                         <div className="row contact__element">
-                  
                                 <h1>Let's do it.</h1>
-                                <div className="col-md-6">
-                                    <h2><a className="hoverBG" href="mailto:tommy@tommyjaks.se" target="_blank"><span>tommy@tommyjaks.se</span></a></h2>
-                                    <h2><a className="hoverBG" href="tel:+46793133747" target="_blank"><span>079 - 313 37 47</span></a></h2>
+                                <div>
+                                    <h2><a className="hoverBG" href="mailto:hello@tommyjaks.com" target="_blank"><span>hello@tommyjaks.com</span></a></h2>
+                                    <h2><a className="hoverBG" href="tel:+46793133747" target="_blank"><span>+46 79 - 313 37 47</span></a></h2>
                                     <h2><a className="hoverBG" href="https://www.google.se/maps/place/Stockholm/@59.326242,17.8419719,11z/data=!3m1!4b1!4m5!3m4!1s0x465f763119640bcb:0xa80d27d3679d7766!8m2!3d59.3293235!4d18.0685808" target="_blank"><span>Stockholm, Sweden</span></a></h2>
                                 </div>
-                                <div className="col-md-6">
+                                <div>
                                     <h2><a className="hoverBG" href="https://github.com/tjaks" target="_blank"><span>github.com/tjaks</span></a></h2>
                                     <h2><a className="hoverBG" href="https://www.linkedin.com/in/tommyjaks/" target="_blank"><span> linkedin.com/tommyjaks</span></a></h2>
                                     <h2><a className="hoverBG" href="https://www.instagram.com/tommeh" target="_blank"><span>@tommyjaks</span></a></h2>

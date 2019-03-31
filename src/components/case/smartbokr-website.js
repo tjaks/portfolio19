@@ -57,49 +57,29 @@ export default class smartbokrWebsite extends Component {
                 <section className="case-study__info container">
                     <div>
                         <h3>Project</h3>
-                        <p>Smartbokr App <br/> A easy way to book a Real Estate Agent for a housing valuation. </p>
+                        <p>Website for SmartBokr App </p>
                     </div>
                     <div>
                         <h3>Brief</h3>
-                        <p> Create an web application to sell to different Real Estate Agents companies, in different
-                            countries.<br/>
-                            It should be customisable and every client should be able to put their own graphic profile
-                            on it, too feel like a part of their website.</p>
+                        <p> Create a website for Quedros SmartBokr application that promotes the product.<br/>
+                            It should feel high end and digital. </p>
                     </div>
                     <div>
                         <h3>Role</h3>
                         <p>
-                            I had the role as Product Designer in a theme of 4 people including a project manager, back
-                            end developer,
-                            front end developer.
-                            I was responsible to ensure the best possible
-                            experience for our users.
+                            The project where a team of three, me, as designer and programmer, the project manager and the sales manager. 
                         </p>
-                        <p>
-                            By working across the entire product lifecycle, from product discovery to product
-                            development and through multiple
-                            The app was developed in React.JS and I was also responsible for JSX, CSS and animations.
-                        </p>
+            
                     </div>
                 </section>
 
                 <section className="case-study__info container">
                     <div>
                         <h3>The process</h3>
-
                     </div>
-
-
-                    <div>
-                        <p>Here's an example of lo-fi mockups I created in Balsamiq based on the research.</p>
-                    </div>
+           
                     <img className="case-study__info--100" src={ img2 } alt="Refitness Case Study wireframe"/>
-                    <h3>Branding and Design guidelines</h3>
                     <img className="mobile-mockup case-study__info--shadow" src={ img5 } alt="Smartbokr logo"/>
-                    {/*<img className="mobile-mockup case-study__info--100" src={ img6 } alt="Smartbokr design guidelines"/>*/}
-                    {/*<h3>A mobile first approach</h3>*/}
-                    {/*<p>Our interviews learned that most of our clients would promote the application via social media*/}
-                        {/*platforms, so it was a natural thing for us to have a mobile first approach.</p>*/}
                     <img className="case-study__info--100 case-study__info--shadow" src={ img3 }
                          alt="Refitness Case Study startpage"/>
                 </section>

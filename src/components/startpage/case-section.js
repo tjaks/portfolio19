@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Waypoint from 'react-waypoint';
 import nookImg from '../../media/nook-bg.jpg';
 import smartBokr from '../../media/smartbokr-website.png';
-import smartBokrApp from '../../media/3.jpg';
+import smartBokrApp from '../../media/smartbokr-app-start.jpg';
 import walkingSuit from '../../media/walking-suit.jpg';
 import nordeaCase from '../../media/nordeacase.png';
 import refitness from '../../media/refitnessmockup.png';
@@ -70,6 +70,19 @@ export default class CaseSection extends Component {
 
                 <section className="case-section__item">
                     <div className="case-section__item--text">
+                        <h2>SmartBokr App</h2>
+                        <p>#UI/UX #CSS #Animations #React.js</p>
+                    </div>
+                    <Tilt options={ { max: 25, scale: 1 } }>
+                        <Link onClick={ this.pageTransition } to="/case/smartbokrapp">
+                            <figure style={ { backgroundImage: 'url(' + smartBokrApp + ')' } }></figure>
+                            <div className="overlay"></div>
+                        </Link>
+                    </Tilt>
+                </section>
+
+                <section className="case-section__item">
+                    <div className="case-section__item--text">
                         <h2>SmartBokr.com</h2>
                         <p>#UI/UX #Developer #Wordpress</p>
                     </div>
@@ -82,19 +95,6 @@ export default class CaseSection extends Component {
                         { /*<figure style={ { backgroundImage: 'url(' + smartBokr + ')' } }></figure>*/ }
                         { /*/!*<div className="overlay"></div>*!/*/ }
                         { /*</a>*/ }
-                    </Tilt>
-                </section>
-
-                <section className="case-section__item">
-                    <div className="case-section__item--text">
-                        <h2>SmartBokr App</h2>
-                        <p>#UI/UX #CSS #Animations #React.js</p>
-                    </div>
-                    <Tilt options={ { max: 25, scale: 1 } }>
-                        <Link onClick={ this.pageTransition } to="/case/smartbokrapp">
-                            <figure style={ { backgroundImage: 'url(' + smartBokrApp + ')' } }></figure>
-                            <div className="overlay"></div>
-                        </Link>
                     </Tilt>
                 </section>
 

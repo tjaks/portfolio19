@@ -12,7 +12,7 @@ export default class OurFunctions extends Component {
                                 <h3>Contact.</h3>
                             </div>
                             <div className="">
-                                <a href="tel:+46793133747" className="p hoverBG"> <span> 079-313 37 47 </span></a>
+                                <a href="tel:+46793133747" className="p hoverBG"> <span> +46 79-313 37 47 </span></a>
                                 <a href="mailto:tommyjaks@hotmail.com" className="p hoverBG"> <span> hello@tommyjaks.com </span></a>
                             </div>
                         </div>
