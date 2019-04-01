@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { fixedBody } from '../utils';
-import img1 from '../../media/nook-bg.jpg';
-import img2 from '../../media/nookvideo2.mp4';
+import img1 from '../../media/quedro-startpage.png';
+import img2 from '../../media/quedro-startpage-video.mp4';
 import img3 from '../../media/smartbokr-web-desktop-startpage.jpg';
 import img4 from '../../media/refitness-movie.gif';
 import img5 from '../../media/smartbokr-web-mobile-mockup.jpg';
 import img6 from '../../media/smartbokr-app-States.png';
 
 
-export default class nookstockholmWebsite extends Component {
+export default class quedroWebsite extends Component {
 
     constructor(props) {
         super(props);
@@ -20,7 +20,7 @@ export default class nookstockholmWebsite extends Component {
         this.pageTransition = this.pageTransition.bind(this);
     }
 
-    pageTransition() {
+    pageTransition(){
         fixedBody();
     }
 
@@ -28,57 +28,55 @@ export default class nookstockholmWebsite extends Component {
         return (
             <article>
                 <div className="page-transition">
-                    <h2>Nook Stockholm Website</h2>
+                    <h2>Quedro Website</h2>
                 </div>
                 <section className="case-study__jumbotron">
                     <div className="case-study__headline">
-                        <a className="open-external-link" href="http://www.nookstockholm.com" target="_blank">visit site<i className="fa fa-external-link"></i></a>
-                        <h1><span>nookstockholm.com</span></h1>
-                        <h5>Website based on Wordpress for a hairdresser studio.</h5>
-
+                        <a className="open-external-link" href="www.quedro.com" target="_blank">visit site<i className="fa fa-external-link"></i></a>
+                        <h1>
+                            <span>Quedro.com</span>
+                        </h1>
+                        <h5>Company website.</h5>
                     </div>
+
                     <div className="case-study__textline">
                         <p>
-                            A website to promote the Nook stockholm as a high end, trendsetting hairdresser studio. With
-                            all the latest technologies and products.
+                        A company website to promote Quedro as a leader in the CRM for Real estate agents -business.
                         </p>
                         <p> Scroll down to see the result.</p>
                         <button onClick={ this.scrollWindow } className="button button__round"><i
                             className="fa fa-long-arrow-down" aria-hidden="true"></i></button>
                     </div>
-
-                    { /*<img className="startpage__image" src={ GlitchImage } style={styles} alt="Glitch Profile" />*/ }
                 </section>
-                <img className="case-study__header__img case-study__info--shadow" src={ img1 }
-                     alt="Refitness Case Study"/>
-                { /*<div className="case-study__header__img">*/ }
-                { /*<video src={img1} loop autoPlay poster={img1} />*/ }
-                { /*</div>*/ }
+                <img className="case-study__header__img case-study__info--shadow" src={ img1 } alt="Refitness Case Study"/>
                 <section className="case-study__info container">
                     <div>
                         <h3>Project</h3>
-                        <p>
-                            Website that represents Nook Stockholm and to revamp their online presence.</p>
+                        <p>Company Website for Quedro. </p>
                     </div>
                     <div>
                         <h3>Brief</h3>
-                        <p> Nook Stockholm reached out to me to get a new website, that is easy to edit and works for all devices. <br/>The design should represent the company and promote them as fashionable hairdressers.</p>
+                        <p> ... </p>
                     </div>
                     <div>
                         <h3>Role</h3>
                         <p>
-                            Freelance, Design and Development.
+                            The project where a team of three, me; as designer and developer, the project manager and the sales manager.
                         </p>
                     </div>
                 </section>
 
                 <section className="container">
+                    <div>
+                        <h3>Screens</h3>
+                    </div>
+
                     <video className="case-study__info--shadow case-study__info--100" src={ img2 } loop autoPlay
-                            poster={ img1 }/>
+                           poster={ img1 }/>
                 </section>
-                <Link onClick={ this.pageTransition } to="/case/nordea">
+                <Link onClick={this.pageTransition} to="/case/nookstockholm">
                     <section className="contactMe">
-                        <h2>Next <i className="fa fa-long-arrow-right" aria-hidden="true"></i> Nordea</h2>
+                        <h2>Next <i className="fa fa-long-arrow-right" aria-hidden="true"></i> Nook Stockholm Web</h2>
                     </section>
                 </Link>
             </article>

@@ -26,6 +26,12 @@ p, .p {
 }
 
 @font-face {
+  font-family: CeraPro-Medium;
+  src: url('./fonts/Cera-Pro-Medium.woff');
+}
+
+
+@font-face {
   font-family: maax;
   src: url('./fonts/Maax.ttf');
 }

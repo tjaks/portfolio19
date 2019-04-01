@@ -33,6 +33,7 @@ export default class refitness extends Component {
                 <section className="case-study__jumbotron">
                     {/*<img className="arrow__animation" src={ ScrollDownArrow } alt="arrow down"/>*/}
                     <div className="case-study__headline">
+                        <a className="open-external-link" target="_blank">site coming soon</a>
                         <h1><span>reFitness.se </span>
                         </h1>
                         <h5>The second largest online personal trainer in Sweden.</h5>
@@ -70,7 +71,7 @@ export default class refitness extends Component {
                     </div>
                 </section>
 
-                <section className="case-study__info container">
+                <section className="container">
                     <div>
                         <h3>The process</h3>
                         <p>I started of with interviews, competitive analysis and creating personas.</p>

@@ -10,6 +10,7 @@ import smartbokrWebb from './components/case/smartbokr-webb';
 import refitness from './components/case/refitness';
 import smartbokrApp from './components/case/smartbokr-app';
 import smartbokrWebsite from './components/case/smartbokr-website';
+import quedroWebsite from './components/case/quedro-website';
 import nookstockholmWebsite from './components/case/nookstockholm-website';
 
 
@@ -24,6 +25,7 @@ class App extends Component {
                             <Switch>
                                 <Route path="/case/nookstockholm" component={ nookstockholmWebsite }/>
                                 <Route path="/case/smartbokrwebsite" component={ smartbokrWebsite }/>
+                                <Route path="/case/quedrowebsite" component={ quedroWebsite }/>
                                 <Route path="/case/smartbokrapp" component={ smartbokrApp }/>
                                 <Route path="/case/refitness" component={ refitness }/>
                                 <Route path="/case/smartbokr-webb" component={ smartbokrWebb }/>

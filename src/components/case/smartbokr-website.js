@@ -31,7 +31,6 @@ export default class smartbokrWebsite extends Component {
                     <h2>SmartBokr Website</h2>
                 </div>
                 <section className="case-study__jumbotron">
-                    { /*<img className="arrow__animation" src={ ScrollDownArrow } alt="arrow down"/>*/ }
                     <div className="case-study__headline">
                         <h1>
                             <span>Smartbokr.com</span>
@@ -47,13 +46,8 @@ export default class smartbokrWebsite extends Component {
                         <button onClick={ this.scrollWindow } className="button button__round"><i
                             className="fa fa-long-arrow-down" aria-hidden="true"></i></button>
                     </div>
-
-                    { /*<img className="startpage__image" src={ GlitchImage } style={styles} alt="Glitch Profile" />*/ }
                 </section>
                 <img className="case-study__header__img case-study__info--shadow" src={ img1 } alt="Refitness Case Study"/>
-                {/*<div className="case-study__header__img">*/}
-                    {/*<video src={img1} loop autoPlay controls poster={img1} />*/}
-                {/*</div>*/}
                 <section className="case-study__info container">
                     <div>
                         <h3>Project</h3>
@@ -61,19 +55,18 @@ export default class smartbokrWebsite extends Component {
                     </div>
                     <div>
                         <h3>Brief</h3>
-                        <p> Create a website for Quedros SmartBokr application that promotes the product.<br/>
-                            It should feel high end and digital. </p>
+                        <p> Create a website for Quedros SmartBokr application that promotes the product,<br/>
+                             with a feeling of high end, digital and modern. </p>
                     </div>
                     <div>
                         <h3>Role</h3>
                         <p>
-                            The project where a team of three, me, as designer and programmer, the project manager and the sales manager. 
+                            The project where a team of three, me; as designer and developer, the project manager and the sales manager.
                         </p>
-            
                     </div>
                 </section>
 
-                <section className="case-study__info container">
+                <section className="container">
                     <div>
                         <h3>The process</h3>
                     </div>

@@ -12,6 +12,7 @@ export default class RiktigVykort extends Component {
                 </div>
            
                     <div className="case-study__header">
+                        <a className="open-external-link" href="https://www.smartbokr.com" target="_blank">visit site<i className="fa fa-external-link"></i></a>
                     <h1>SmartBokr.com</h1>
                     <p>UI/UX, Development, Wordpress</p>
                     </div>

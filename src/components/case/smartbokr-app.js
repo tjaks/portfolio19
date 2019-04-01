@@ -33,6 +33,7 @@ export default class smartbokrApp extends Component {
                 <section className="case-study__jumbotron">
                     { /*<img className="arrow__animation" src={ ScrollDownArrow } alt="arrow down"/>*/ }
                     <div className="case-study__headline">
+                        <a className="open-external-link" href="https://inhouse.smartbokr.com/" target="_blank">visit site<i className="fa fa-external-link"></i></a>
                         <h1><span>SmartBokr App</span>
                         </h1>
                         <h5>A modern tool for the digitalisation of the Real Estate Business.</h5>
@@ -58,7 +59,7 @@ export default class smartbokrApp extends Component {
                     </div>
                     <div>
                         <h3>Brief</h3>
-                        <p> Create an web application to sell to different Real Estate Agents companies, in different
+                        <p> Create an web application to sell to different Real Estate Agents companies in different
                             countries.<br/>
                             It should be customisable and every client should be able to put their own graphic profile
                             on it, too feel like a part of their website.</p>
@@ -80,7 +81,7 @@ export default class smartbokrApp extends Component {
                     </div>
                 </section>
 
-                <section className="case-study__info container">
+                <section className="container">
                     <div>
                         <h3>The process</h3>
                         <p>We started of with interviews with Real Estate Agents and their bosses. Potential users in

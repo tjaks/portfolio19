@@ -149,3 +149,24 @@ input {
     height: auto;
 }
 
+
+.open-external-link {
+    border: 2px solid blue;
+    color: blue;
+    background: transparent;
+    border-radius: 5rem;
+    padding: .5rem;
+    cursor: pointer;
+    font-size: .8rem;
+    i {
+        padding-left: .25rem;
+    }
+    &:hover, &:active {
+        background: blue;
+        color: aliceblue!important;
+        transition: all .2s ease-out;
+    }
+    &:visited {
+        color: blue;
+    }
+}
