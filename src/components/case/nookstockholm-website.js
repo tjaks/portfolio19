@@ -32,7 +32,8 @@ export default class nookstockholmWebsite extends Component {
                 </div>
                 <section className="case-study__jumbotron">
                     <div className="case-study__headline">
-                        <a className="open-external-link" href="http://www.nookstockholm.com" target="_blank">visit site<i className="fa fa-external-link"></i></a>
+                        <a className="open-external-link" href="http://www.nookstockholm.com" target="_blank">visit site<i
+                            className="fa fa-external-link"></i></a>
                         <h1><span>nookstockholm.com</span></h1>
                         <h5>Website based on Wordpress for a hairdresser studio.</h5>
 
@@ -47,22 +48,23 @@ export default class nookstockholmWebsite extends Component {
                             className="fa fa-long-arrow-down" aria-hidden="true"></i></button>
                     </div>
 
-                    { /*<img className="startpage__image" src={ GlitchImage } style={styles} alt="Glitch Profile" />*/ }
                 </section>
                 <img className="case-study__header__img case-study__info--shadow" src={ img1 }
                      alt="Refitness Case Study"/>
-                { /*<div className="case-study__header__img">*/ }
-                { /*<video src={img1} loop autoPlay poster={img1} />*/ }
-                { /*</div>*/ }
+
                 <section className="case-study__info container">
                     <div>
-                        <h3>Project</h3>
+                        <h3>Client</h3>
                         <p>
-                            Website that represents Nook Stockholm and to revamp their online presence.</p>
+                            Nook Stockholm always strive to ensure that you as a customer receive a professional and
+                            safe approach.</p><p> Whether you cut the tops or want a brand new look, the idea is that you
+                            should leave us with a feel-good feeling.</p>
                     </div>
                     <div>
                         <h3>Brief</h3>
-                        <p> Nook Stockholm reached out to me to get a new website, that is easy to edit and works for all devices. <br/>The design should represent the company and promote them as fashionable hairdressers.</p>
+                        <p> Nook Stockholm reached out to me to get a new website, that is easy to edit content and works for
+                            all devices. <br/>The design should represent the company and promote them as fashionable
+                            hairdressers.</p>
                     </div>
                     <div>
                         <h3>Role</h3>
@@ -74,7 +76,7 @@ export default class nookstockholmWebsite extends Component {
 
                 <section className="container">
                     <video className="case-study__info--shadow case-study__info--100" src={ img2 } loop autoPlay
-                            poster={ img1 }/>
+                           poster={ img1 }/>
                 </section>
                 <Link onClick={ this.pageTransition } to="/case/nordea">
                     <section className="contactMe">

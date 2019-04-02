@@ -54,7 +54,7 @@ export default class refitness extends Component {
                 <section className="case-study__info container">
                     <div>
                         <h3>Client</h3>
-                        <p>ReFitness.se, <br/> At reFitness you  get personal training and diet plans online from a trained PT.</p>
+                        <p>ReFitness.se, <br/> At reFitness you get personal training and diet plans online from a trained PT.</p>
                     </div>
                     <div>
                         <h3>Brief</h3>

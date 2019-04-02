@@ -15,16 +15,17 @@ export default class About extends Component {
                             <div>
                                 <h3>Hello!</h3>
 
-                                <h3 className="about__header--grey">
+                                <h4 className="about__header--grey">
                                     My name is Tommy Jaks, I am based in Stockholm and have been working professionally
                                     as a Product Designer and
                                     Frontend Developer for 5 years.
-                                </h3>
+                                </h4>
                             </div>
                             <div>
                                 <h3>Creative, data driven problem solver.</h3>
-                                <h3 className="about__header--grey">
-                                    I always strive to make my design choices on arguments based on customer insights and best practice for digital service development.</h3>
+                                <h4 className="about__header--grey">
+                                    I always strive to make my design choices on arguments based on customer insights
+                                    and best practice for digital service development.</h4>
                             </div>
                             <i className="fa fa-long-arrow-down fa-2x" aria-hidden="true"></i>
 
@@ -50,23 +51,24 @@ export default class About extends Component {
 
                     <div className="about__paragraph">
                         <h3>Tommy Jaks</h3>
-                        <p>As a creative and rigorous designer with background as a developer, I regard user-centered
-                            design, empathy, and creativity as my design philosophy. With a deep understanding of technology and development.</p>
+                        <p>As a creative and <b>rigorous</b> designer with background as a developer, I regard user-centered
+                            design, empathy, and creativity as my design philosophy. With a <b>deep understanding</b> of
+                            technology and development.</p>
                         <p>
-                            I believe it is essential for a designer to think about problems, outside the box, and always
+                            I believe it is <b>essential for a designer</b> to think about problems, outside the box, and
+                            always
                             create user experience from a panoramic view.
                             Get familiar with the life-cycle of product development and explore the potential needs of
-                            consumers through multiple iterations.
+                            consumers through <b>multiple iterations.</b>
                         </p>
                     </div>
                     <hr/>
                     <div className="about__paragraph">
-                    <img className="case-study__info--100" src={ img1 }  alt="Refitness Case Study wireframe" />
+                        <img className="case-study__info--100" src={ img1 } alt="Refitness Case Study wireframe"/>
                         <h3>I am also...</h3>
                         <p>
-                            <b>A football fan</b>, I love watching premier league, play FIFA and play on my own with my
+                            <b>A football fan</b>, I love watching Premier League, play FIFA and play football with my
                             friends.
-                            Of course, as a creative midfielder.
                         </p>
                         <p>
                             <b>Pianist</b>, I have been playing the piano for over 13 years. Mostly covering my own
@@ -80,7 +82,7 @@ export default class About extends Component {
                         </p>
                         <p>
                             Interested in <b>furniture and interior design.</b> I have designed some furniture and
-                            creating it with my father. Which I someday may take further! <br/>
+                            together with my father, we created them as well. Which I someday may take further! <br/>
                         </p>
                         <p>
                             <b>A traveler.</b> I love going on trips and traveling the world, to explore new cultures,
@@ -89,11 +91,10 @@ export default class About extends Component {
 
                         <p>
                             <b>An Adrenaline seeker.</b> I am a big fan of different board sports, like snowboarding and
-                            longboard. Recently I learned to surf in Sri Lanka, which is my new thing to improve! <br/>
+                            longboard. Recently I learned to surf in Sri Lanka, which is my new thing to get better at! <br/>
                         </p>
                     </div>
                 </section>
-               
             </article>
         );
     }

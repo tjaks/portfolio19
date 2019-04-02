@@ -20,7 +20,7 @@ export default class quedroWebsite extends Component {
         this.pageTransition = this.pageTransition.bind(this);
     }
 
-    pageTransition(){
+    pageTransition() {
         fixedBody();
     }
 
@@ -32,7 +32,8 @@ export default class quedroWebsite extends Component {
                 </div>
                 <section className="case-study__jumbotron">
                     <div className="case-study__headline">
-                        <a className="open-external-link" href="www.quedro.com" target="_blank">visit site<i className="fa fa-external-link"></i></a>
+                        <a className="open-external-link" href="www.quedro.com" target="_blank">visit site<i
+                            className="fa fa-external-link"></i></a>
                         <h1>
                             <span>Quedro.com</span>
                         </h1>
@@ -41,18 +42,23 @@ export default class quedroWebsite extends Component {
 
                     <div className="case-study__textline">
                         <p>
-                        A company website to promote Quedro as a leader in the CRM for Real estate agents -business.
+                            A company website to promote Quedro as a leader in the CRM for Real estate agents -business.
                         </p>
                         <p> Scroll down to see the result.</p>
                         <button onClick={ this.scrollWindow } className="button button__round"><i
                             className="fa fa-long-arrow-down" aria-hidden="true"></i></button>
                     </div>
                 </section>
-                <img className="case-study__header__img case-study__info--shadow" src={ img1 } alt="Refitness Case Study"/>
+                <img className="case-study__header__img case-study__info--shadow" src={ img1 }
+                     alt="Refitness Case Study"/>
                 <section className="case-study__info container">
                     <div>
                         <h3>Project</h3>
-                        <p>Company Website for Quedro. </p>
+                        <p>Thousands of agents from Northern Norway to Southern Spain all have one thing in common, a
+                            successful real estate sales platform.</p>
+                        <p>Quedro is a software development company with a
+                            passion for sales and the real estate industry. The company was born with the industry, and
+                            we plan to grow with it. </p>
                     </div>
                     <div>
                         <h3>Brief</h3>
@@ -61,7 +67,8 @@ export default class quedroWebsite extends Component {
                     <div>
                         <h3>Role</h3>
                         <p>
-                            The project where a team of three, me; as designer and developer, the project manager and the sales manager.
+                            The project where a team of three, me; as designer and developer, the project manager and
+                            the sales manager.
                         </p>
                     </div>
                 </section>
@@ -74,7 +81,7 @@ export default class quedroWebsite extends Component {
                     <video className="case-study__info--shadow case-study__info--100" src={ img2 } loop autoPlay
                            poster={ img1 }/>
                 </section>
-                <Link onClick={this.pageTransition} to="/case/nookstockholm">
+                <Link onClick={ this.pageTransition } to="/case/nookstockholm">
                     <section className="contactMe">
                         <h2>Next <i className="fa fa-long-arrow-right" aria-hidden="true"></i> Nook Stockholm Web</h2>
                     </section>

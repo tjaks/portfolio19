@@ -67,16 +67,14 @@ export default class smartbokrApp extends Component {
                     <div>
                         <h3>Role</h3>
                         <p>
-                            I had the role as Product Designer in a theme of 4 people including a project manager, back
+                            I had the role as <b>Product Designer</b> in a theme of 4 people including a project manager, back
                             end developer,
                             front end developer.
                             I was responsible to ensure the best possible
-                            experience for our users.
-                        </p>
-                        <p>
+                            experience for our users,<br/>
                             By working across the entire product lifecycle, from product discovery to product
-                            development and through multiple
-                            The app was developed in React.JS and I was also responsible for JSX, CSS and animations.
+                            development and through multiple iterations.
+                            The app was developed in React.JS and I was also <b>responsible</b> for JSX, CSS and animations.
                         </p>
                     </div>
                 </section>
@@ -84,10 +82,10 @@ export default class smartbokrApp extends Component {
                 <section className="container">
                     <div>
                         <h3>The process</h3>
-                        <p>We started of with interviews with Real Estate Agents and their bosses. Potential users in
+                        <p>We started of with interviews with four Real Estate Agents, 2 of their bosses and five potential users in
                             the age of 30-50.</p>
-                        <p>Then we did competitive analysis to collect data to help us get started. Then we move on to
-                            create personas. </p>
+                        <p>Then I did a competitive analysis to collect data. Then I moved on to
+                            create some user personas. </p>
 
                     </div>
 
@@ -97,11 +95,13 @@ export default class smartbokrApp extends Component {
                     </div>
                     <img className="case-study__info--100" src={ img2 } alt="Refitness Case Study wireframe"/>
                     <h3>Branding and Design guidelines</h3>
+                    <p>Since this application is supposed to be themed, I designed it with that in mind.
+                        Like the secondary color calculation, which is also a SASS-function in the application, to speed up the theming process.</p>
                     <img className="mobile-mockup" src={ img5 } alt="Smartbokr logo"/>
                     <img className="mobile-mockup case-study__info--100" src={ img6 }
                          alt="Smartbokr design guidelines"/>
                     <h3>A mobile first approach</h3>
-                    <p>Our interviews learned that most of our clients would promote the application via social media
+                    <p>In the interviews we learned that most of our clients would promote the application via social media
                         platforms, so it was a natural thing for us to have a mobile first approach.</p>
                 </section>
                 <img className="mobile-mockup case-study__info--100" src={ img3 }

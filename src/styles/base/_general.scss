@@ -67,6 +67,12 @@ a {
         position: relative;
         z-index: 2;
     }
+
+    &--black-text {
+        &:hover {
+            color: black!important;
+        }
+    }
 }
 
 .hoverCloseBG {

@@ -6,7 +6,6 @@ import Home from './components/home';
 import Footer from './components/footer';
 import Header from './components/header';
 import About from './components/about';
-import smartbokrWebb from './components/case/smartbokr-webb';
 import refitness from './components/case/refitness';
 import smartbokrApp from './components/case/smartbokr-app';
 import smartbokrWebsite from './components/case/smartbokr-website';
@@ -28,7 +27,6 @@ class App extends Component {
                                 <Route path="/case/quedrowebsite" component={ quedroWebsite }/>
                                 <Route path="/case/smartbokrapp" component={ smartbokrApp }/>
                                 <Route path="/case/refitness" component={ refitness }/>
-                                <Route path="/case/smartbokr-webb" component={ smartbokrWebb }/>
                                 <Route path="/about" component={ About }/>
                                 <Route path="/" component={ Home }/>
                             </Switch>

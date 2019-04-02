@@ -55,9 +55,11 @@
         text-decoration:none;
         color: #333;
         transition: all 0.3s ease;
-            &:hover {
+        @media (min-width: 769px) {
+            &:hover, &:active {
                 text-decoration:none;
                 color: #999;
             }
+        }
     }
 }
