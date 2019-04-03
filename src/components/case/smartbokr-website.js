@@ -24,6 +24,11 @@ export default class smartbokrWebsite extends Component {
         fixedBody();
     }
 
+    scrollWindow() {
+        let height = window.innerHeight;
+        window.scroll({ top: height, left: 0, behavior: 'smooth' });
+    }
+
     render() {
         return (
             <article>
@@ -54,7 +59,8 @@ export default class smartbokrWebsite extends Component {
                     <div>
                         <h3>Project</h3>
                         <p>If it’s not online - it does not exist. The old way, picking up the phone and call, does not
-                            work anymore. Customers want to have access to your calendar, scheduling a meeting whenever it suits the
+                            work anymore. Customers want to have access to your calendar, scheduling a meeting whenever
+                            it suits the
                             customer.</p>
                         <p>
                             Without calling or visiting you. Exactly the same way we book a taxi, cinema tickets, test

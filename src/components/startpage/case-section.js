@@ -52,13 +52,14 @@ export default class CaseSection extends Component {
                 <Waypoint onEnter={ this.caseWaypointEnter.bind(this) }/>
 
                 <section className="case-section__item">
-                    <div className="case-section__item--text">
-                        <h2>reFitness.se</h2>
-                        <p>#ProductDesign</p>
-                    </div>
                     <Tilt options={ { max: 25, scale: 1 } }>
                         <Link onClick={ this.pageTransition } to="/case/refitness">
-                            <figure style={ { backgroundImage: 'url(' + refitness + ')' } }></figure>
+                            <figure style={ { backgroundImage: 'url(' + refitness + ')' } }>
+                                <div className="case-section__item--text">
+                                    <h2>reFitness.se</h2>
+                                    <p>#ProductDesign</p>
+                                </div>
+                            </figure>
                             <div className="overlay"></div>
                         </Link>
                         { /*<a href="https://www.smartbokr.com" target="_blank" rel="noopener noreferrer">*/ }
@@ -69,26 +70,30 @@ export default class CaseSection extends Component {
                 </section>
 
                 <section className="case-section__item">
-                    <div className="case-section__item--text">
-                        <h2>SmartBokr App</h2>
-                        <p>#UI/UX #CSS #Animations #React.js</p>
-                    </div>
+
                     <Tilt options={ { max: 25, scale: 1 } }>
                         <Link onClick={ this.pageTransition } to="/case/smartbokrapp">
-                            <figure style={ { backgroundImage: 'url(' + smartBokrApp + ')' } }></figure>
+                            <figure style={ { backgroundImage: 'url(' + smartBokrApp + ')' } }>
+                                <div className="case-section__item--text">
+                                    <h2>SmartBokr App</h2>
+                                    <p>#UI/UX #CSS #Animations #React.js</p>
+                                </div>
+                            </figure>
                             <div className="overlay"></div>
                         </Link>
                     </Tilt>
                 </section>
 
                 <section className="case-section__item">
-                    <div className="case-section__item--text">
-                        <h2>SmartBokr.com</h2>
-                        <p>#UI/UX #Developer #Wordpress</p>
-                    </div>
+
                     <Tilt options={ { max: 25, scale: 1 } }>
                         <Link onClick={ this.pageTransition } to="/case/smartbokrwebsite">
-                            <figure style={ { backgroundImage: 'url(' + smartBokr + ')' } }></figure>
+                            <figure style={ { backgroundImage: 'url(' + smartBokr + ')' } }>
+                                <div className="case-section__item--text">
+                                    <h2>SmartBokr.com</h2>
+                                    <p>#UI/UX #Developer #Wordpress</p>
+                                </div>
+                            </figure>
                             <div className="overlay"></div>
                         </Link>
                         { /*<a href="https://www.smartbokr.com" target="_blank" rel="noopener noreferrer">*/ }
@@ -99,10 +104,7 @@ export default class CaseSection extends Component {
                 </section>
 
                 <section className="case-section__item nook">
-                    <div className="case-section__item--text">
-                        <h2>Quedro.com</h2>
-                        <p>#UI/UX #Developer #Wordpress</p>
-                    </div>
+
                     <Tilt options={ { max: 25, scale: 1 } }>
                         { /* <Link onClick={this.pageTransition} to="/case/smartbokr-webb">
                             <figure style={{  backgroundImage: 'url(' + walkingSuit + ')' }}></figure>
@@ -110,20 +112,27 @@ export default class CaseSection extends Component {
                         </Link> */ }
 
                         <a href="https://www.quedro.com" target="_blank" rel="noopener noreferrer">
-                            <figure style={ { backgroundImage: 'url(' + walkingSuit + ')' } }></figure>
+                            <figure style={ { backgroundImage: 'url(' + walkingSuit + ')' } }>
+                                <div className="case-section__item--text">
+                                    <h2>Quedro.com</h2>
+                                    <p>#UI/UX #Developer #Wordpress</p>
+                                </div>
+                            </figure>
                             <div className="overlay"></div>
                         </a>
                     </Tilt>
                 </section>
 
                 <section className="case-section__item nook">
-                    <div className="case-section__item--text">
-                        <h2>Nook Stockholm</h2>
-                        <p>#UI/UX #Developer #Wordpress</p>
-                    </div>
+
                     <Tilt options={ { max: 25, scale: 1 } }>
                         <Link onClick={ this.pageTransition } to="/case/nookstockholm">
-                            <figure style={ { backgroundImage: 'url(' + nookImg + ')' } }></figure>
+                            <figure style={ { backgroundImage: 'url(' + nookImg + ')' } }>
+                                <div className="case-section__item--text">
+                                    <h2>Nook Stockholm</h2>
+                                    <p>#UI/UX #Developer #Wordpress</p>
+                                </div>
+                            </figure>
                             <div className="overlay"></div>
                         </Link>
                         { /*// <a href="http://www.nookstockholm.com" target="_blank" rel="noopener noreferrer">*/ }
@@ -134,10 +143,7 @@ export default class CaseSection extends Component {
                 </section>
 
                 <section className="case-section__item nook">
-                    <div className="case-section__item--text">
-                        <h2>Nordea Retail</h2>
-                        <p>#FrontendDev #ES6</p>
-                    </div>
+           
                     <Tilt options={ { max: 25, scale: 1 } }>
                         { /* <Link onClick={this.pageTransition} to="/case/smartbokr-webb">
                             <figure style={{  backgroundImage: 'url(' + nordeaCase + ')' }}></figure>
@@ -145,7 +151,12 @@ export default class CaseSection extends Component {
                         </Link> */ }
 
                         <a href="https://www.nordea.se" target="_blank" rel="noopener noreferrer">
-                            <figure style={ { backgroundImage: 'url(' + nordeaCase + ')' } }></figure>
+                            <figure style={ { backgroundImage: 'url(' + nordeaCase + ')' } }>
+                                <div className="case-section__item--text">
+                                    <h2>Nordea Retail</h2>
+                                    <p>#FrontendDev #ES6</p>
+                                </div>
+                            </figure>
                             <div className="overlay"></div>
                         </a>
                     </Tilt>

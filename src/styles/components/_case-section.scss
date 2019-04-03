@@ -1,7 +1,6 @@
 $height: 80vh;
 $width: 550px;
 
-
 .case-section {
   padding: 2rem 0;
   height: 100%;
@@ -21,10 +20,15 @@ $width: 550px;
       width: 100%;
       flex-direction: column;
     }
-    
+
     &--text {
-      margin-right: -5rem;
+      left: 1rem;
+      top: 1rem;
+      position: absolute;
       z-index: 100;
+      background: blue;
+      color: #fff;
+      padding: 1rem;
       @media(max-width:600px){
         padding-left: 1rem;
         margin: 2rem 0 -2rem 0;
@@ -54,9 +58,10 @@ $width: 550px;
         height: 70vh;
         margin: 0 auto;
       }
-      
+
     }
   }
+
   .overlay {
     opacity: 0;
     background: rgba(0,0,255,.7);

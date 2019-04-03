@@ -23,6 +23,11 @@ export default class refitness extends Component {
         fixedBody();
     }
 
+    scrollWindow() {
+        let height = window.innerHeight;
+        window.scroll({top: height, left: 0, behavior: 'smooth' });
+    }
+
     render() {
         return (
             <article>
