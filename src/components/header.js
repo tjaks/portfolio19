@@ -11,36 +11,26 @@ export default class Header extends Component {
             pageTransition: false,
         };
         //bind to not lose context
-        this.handleScroll = this.handleScroll.bind(this);
+        // this.handleScroll = this.handleScroll.bind(this);
         this.showContact = this.showContact.bind(this);
         this.closeContact = this.closeContact.bind(this);
-        this.setWrapperRef = this.setWrapperRef.bind(this);
+        // this.setWrapperRef = this.setWrapperRef.bind(this);
         this.handleClickOutside = this.handleClickOutside.bind(this);
         this.pageTransition = this.pageTransition.bind(this);
     }
 
     componentDidMount() {
-        window.addEventListener('scroll', this.handleScroll);
+        // window.addEventListener('scroll', this.handleScroll);
         // document.addEventListener('mousedown', this.handleClickOutside);
-        window.addEventListener('mousedown', this.showContact)
-        window.addEventListener('mousedown', this.closeContact)
+        // window.addEventListener('mousedown', this.showContact)
+        // window.addEventListener('mousedown', this.closeContact)
     }
 
     componentWillUnmount() {
-        window.removeEventListener('scroll', this.handleScroll);
+        // window.removeEventListener('scroll', this.handleScroll);
         // document.removeEventListener('mousedown', this.handleClickOutside);
-        window.removeEventListener('mousedown', this.showContact)
-        window.removeEventListener('mousedown', this.closeContact)
-    }
-
-    handleScroll(event) {
-        let scrollTop = event.srcElement.body.scrollTop;
-        if (scrollTop > 200) {
-            this.setState({ isScrolled: "navigation--background" })
-        }
-        else {
-            this.setState({ isScrolled: "" })
-        }
+        // window.removeEventListener('mousedown', this.showContact)
+        // window.removeEventListener('mousedown', this.closeContact)
     }
 
     pageTransition() {
@@ -58,6 +48,7 @@ export default class Header extends Component {
         document.body.style.position = 'relative';
         this.setState({ contactOverlay: false })
     }
+
     /**
      * Set the wrapper ref
      */
@@ -72,56 +63,58 @@ export default class Header extends Component {
             this.closeContact(event);
         }
     }
-    
+
     render() {
         return (
             <header>
                 <nav className="navigation">
-                    <Link to="/" >
-                        {/*<img src="/media/logo.png" />*/}
+                    <Link to="/">
+                        { /*<img src="/media/logo.png" />*/ }
                         tommyjaks.
                     </Link>
                     <ul>
                         <li>
-                            <Link onClick={this.pageTransition} to="/" className="hoverBG">
+                            <Link onClick={ this.pageTransition } to="/" className="hoverBG">
                                 <span>Home & Work</span>
                             </Link>
                         </li>
-
                         <li>
-                            <Link onClick={this.pageTransition} to="/about" className="hoverBG">
+                            <Link onClick={ this.pageTransition } to="/about" className="hoverBG">
                                 <span>About</span>
                             </Link>
                         </li>
-
-
                         <li>
-                            <a onClick={this.showContact} className="hoverBG">
+                            <a onClick={ this.showContact } className="hoverBG">
                                 <span>Contact</span>
                             </a>
                         </li>
                     </ul>
                 </nav>
 
-                <div className={"contact " + (this.state.contactOverlay ? 'top0' : 'top-100')}>
+                <div onClick={ this.closeContact }  className={ "contact " + (this.state.contactOverlay ? 'top0' : 'top-100') }>
                     <section className="container contact__container">
                         <div className="contact__close">
-                            <a onClick={this.closeContact} className="p hoverCloseBG"><span>close</span></a>
+                            <p onClick={ this.closeContact } className="p hoverCloseBG"><span>close</span></p>
                         </div>
-
                         <div className="row contact__element">
-                                <h1>Let's do it.</h1>
-                                <div>
-                                    <h2><a className="hoverBG" href="mailto:hello@tommyjaks.com" target="_blank"><span>hello@tommyjaks.com</span></a></h2>
-                                    <h2><a className="hoverBG" href="tel:+46793133747" target="_blank"><span>+46 79 - 313 37 47</span></a></h2>
-                                    <h2><a className="hoverBG" href="https://www.google.se/maps/place/Stockholm/@59.326242,17.8419719,11z/data=!3m1!4b1!4m5!3m4!1s0x465f763119640bcb:0xa80d27d3679d7766!8m2!3d59.3293235!4d18.0685808" target="_blank"><span>Stockholm, Sweden</span></a></h2>
-                                </div>
-                                <div>
-                                    <h2><a className="hoverBG" href="https://github.com/tjaks" target="_blank"><span>github.com/tjaks</span></a></h2>
-                                    <h2><a className="hoverBG" href="https://www.linkedin.com/in/tommyjaks/" target="_blank"><span> linkedin.com/tommyjaks</span></a></h2>
-                                    <h2><a className="hoverBG" href="https://www.instagram.com/tommeh" target="_blank"><span>@tommyjaks</span></a></h2>
-                                </div>
-       
+                            <h1>Let's do it.</h1>
+                            <div>
+                                <h2><a className="hoverBG" rel="noopener noreferrer"
+                                       href="mailto:hello@tommyjaks.com"><span>hello@tommyjaks.com</span></a></h2>
+                                <h2><a className="hoverBG" rel="noopener noreferrer" href="tel:+46793133747"
+                                       target="_blank"><span>+46 79 - 313 37 47</span></a></h2>
+                                <h2><a className="hoverBG" rel="noopener noreferrer"
+                                       href="https://www.google.se/maps/place/Stockholm/@59.326242,17.8419719,11z/data=!3m1!4b1!4m5!3m4!1s0x465f763119640bcb:0xa80d27d3679d7766!8m2!3d59.3293235!4d18.0685808"
+                                       target="_blank"><span>Stockholm, Sweden</span></a></h2>
+                            </div>
+                            <div>
+                                <h2><a className="hoverBG" rel="noopener noreferrer"
+                                       href="https://www.linkedin.com/in/tommyjaks/" target="_blank"><span> linkedin.com/tommyjaks</span></a>
+                                </h2>
+                                <h2><a className="hoverBG" rel="noopener noreferrer"
+                                       href="https://www.instagram.com/tommeh"
+                                       target="_blank"><span>@tommyjaks</span></a></h2>
+                            </div>
                         </div>
                     </section>
                 </div>
