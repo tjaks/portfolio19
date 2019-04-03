@@ -23,8 +23,13 @@ $width: 550px;
     }
     
     &--text {
-      margin-right: -5rem;
+      left: 1rem;
+      top: 1rem;
+      position: absolute;
       z-index: 100;
+      background: blue;
+      color: #fff;
+      padding: 1rem;
       @media(max-width:600px){
         padding-left: 1rem;
         margin: 2rem 0 -2rem 0;
@@ -66,7 +71,7 @@ $width: 550px;
     width: $width;
     height: $height;
     right: 2.5rem;
-    top: 1rem;
+    top: 0;
     &:hover {
       cursor: pointer;
       transition: all .4s ease-out;
