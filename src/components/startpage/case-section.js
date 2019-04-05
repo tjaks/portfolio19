@@ -7,6 +7,8 @@ import smartBokrApp from '../../media/smartbokr-app-start.jpg';
 import walkingSuit from '../../media/walking-suit.jpg';
 import nordeaCase from '../../media/nordeacase.png';
 import refitness from '../../media/refitnessmockup.png';
+import quedroCrm from '../../media/quedrocrm-startpage-mockup-min.jpg';
+import blixtvardering from '../../media/blixt-startpage-mockup2.jpg';
 import { fixedBody } from '../utils';
 import Tilt from 'react-tilt'
 
@@ -57,6 +59,24 @@ export default class CaseSection extends Component {
                             <figure style={ { backgroundImage: 'url(' + refitness + ')' } }>
                                 <div className="case-section__item--text">
                                     <h2>reFitness.se</h2>
+                                    <p>#ProductDesign</p>
+                                </div>
+                            </figure>
+                            <div className="overlay"></div>
+                        </Link>
+                        { /*<a href="https://www.smartbokr.com" target="_blank" rel="noopener noreferrer">*/ }
+                        { /*<figure style={{ backgroundImage: 'url(' + smartBokr + ')' }}></figure>*/ }
+                        { /*<div className="overlay"></div>*/ }
+                        { /*</a>*/ }
+                    </Tilt>
+                </section>
+
+                <section className="case-section__item">
+                    <Tilt options={ { max: 25, scale: 1 } }>
+                        <Link onClick={ this.pageTransition } to="/case/quedrocrm">
+                            <figure style={ { backgroundImage: 'url(' + quedroCrm + ')' } }>
+                                <div className="case-section__item--text">
+                                    <h2>Quedro CRM</h2>
                                     <p>#ProductDesign</p>
                                 </div>
                             </figure>
@@ -125,6 +145,25 @@ export default class CaseSection extends Component {
 
                 <section className="case-section__item nook">
 
+                    <Tilt options={ { max: 25, scale: 1 } }>
+                        { /* <Link onClick={this.pageTransition} to="/case/smartbokr-webb">
+                            <figure style={{  backgroundImage: 'url(' + nordeaCase + ')' }}></figure>
+                            <div className="overlay"></div>
+                        </Link> */ }
+
+                        <span>
+                            <figure style={ { backgroundImage: 'url(' + blixtvardering + ')' } }>
+                                <div className="case-section__item--text">
+                                    <h2>Conceptual/Prototypes</h2>
+                                    <p>#VisualDesign #Coming soon</p>
+                                </div>
+                            </figure>
+                            <div className="overlay"></div>
+                        </span>
+                    </Tilt>
+                </section>
+
+                <section className="case-section__item nook">
                     <Tilt options={ { max: 25, scale: 1 } }>
                         <Link onClick={ this.pageTransition } to="/case/nookstockholm">
                             <figure style={ { backgroundImage: 'url(' + nookImg + ')' } }>

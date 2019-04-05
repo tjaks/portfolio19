@@ -11,6 +11,7 @@ import smartbokrApp from './components/case/smartbokr-app';
 import smartbokrWebsite from './components/case/smartbokr-website';
 import quedroWebsite from './components/case/quedro-website';
 import nookstockholmWebsite from './components/case/nookstockholm-website';
+import quedrocrm from './components/case/quedrocrm'
 
 
 class App extends Component {
@@ -23,6 +24,7 @@ class App extends Component {
                             <Header/>
                             <Switch>
                                 <Route path="/case/nookstockholm" component={ nookstockholmWebsite }/>
+                                <Route path="/case/quedrocrm" component={ quedrocrm }/>
                                 <Route path="/case/smartbokrwebsite" component={ smartbokrWebsite }/>
                                 <Route path="/case/quedrowebsite" component={ quedroWebsite }/>
                                 <Route path="/case/smartbokrapp" component={ smartbokrApp }/>

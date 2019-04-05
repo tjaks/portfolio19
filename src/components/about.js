@@ -52,10 +52,10 @@ export default class About extends Component {
                     <div className="about__paragraph">
                         <h3>Tommy Jaks</h3>
                         <p>As a creative and <b>rigorous</b> designer with background as a developer, I regard user-centered
-                            design, empathy, and creativity as my design philosophy. With a <b>deep understanding</b> of
+                            design, empathy and creativity as my design philosophy. With a <b>deep understanding</b> of
                             technology and development.</p>
                         <p>
-                            I believe it is <b>essential for a designer</b> to think about problems, outside the box, and
+                            I believe it is <b>essential for a designer</b> to think about problems, outside the box and
                             always
                             create user experience from a panoramic view.
                             Get familiar with the life-cycle of product development and explore the potential needs of

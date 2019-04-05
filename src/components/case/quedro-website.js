@@ -62,7 +62,7 @@ export default class quedroWebsite extends Component {
                         <p>Thousands of agents from Northern Norway to Southern Spain all have one thing in common, a
                             successful real estate sales platform.</p>
                         <p>Quedro is a software development company with a
-                            passion for sales and the real estate industry. The company was born with the industry, and
+                            passion for sales and the real estate industry. The company was born with the industry and
                             we plan to grow with it. </p>
                     </div>
                     <div>

@@ -95,9 +95,9 @@ export default class refitness extends Component {
                     <img className="case-study__info--100 case-study__info--shadow" src={ img4 }  alt="Refitness Case Study movie" />
                 </section>
 
-                <Link onClick={this.pageTransition} to="/case/smartbokrapp">
+                <Link onClick={this.pageTransition} to="/case/quedrocrm">
                     <section className="contactMe">
-                        <h2>Next <i className="fa fa-long-arrow-right" aria-hidden="true"></i> SmartBokr App</h2>
+                        <h2>Next <i className="fa fa-long-arrow-right" aria-hidden="true"></i> Quedro CRM</h2>
                     </section>
                 </Link>
             </article>
