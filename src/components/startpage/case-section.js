@@ -9,6 +9,7 @@ import nordeaCase from '../../media/nordeacase.png';
 import refitness from '../../media/refitnessmockup.png';
 import quedroCrm from '../../media/quedrocrm-startpage-mockup-min.jpg';
 import blixtvardering from '../../media/blixt-startpage-mockup2.jpg';
+import kommandevisningar from '../../media/kommandevisningar.jpg';
 import { fixedBody } from '../utils';
 import Tilt from 'react-tilt'
 
@@ -144,7 +145,6 @@ export default class CaseSection extends Component {
                 </section>
 
                 <section className="case-section__item nook">
-
                     <Tilt options={ { max: 25, scale: 1 } }>
                         { /* <Link onClick={this.pageTransition} to="/case/smartbokr-webb">
                             <figure style={{  backgroundImage: 'url(' + nordeaCase + ')' }}></figure>
@@ -154,7 +154,26 @@ export default class CaseSection extends Component {
                         <span>
                             <figure style={ { backgroundImage: 'url(' + blixtvardering + ')' } }>
                                 <div className="case-section__item--text">
-                                    <h2>Conceptual/Prototypes</h2>
+                                    <h2>Prototype</h2>
+                                    <p>#VisualDesign #Coming soon</p>
+                                </div>
+                            </figure>
+                            <div className="overlay"></div>
+                        </span>
+                    </Tilt>
+                </section>
+
+                <section className="case-section__item nook">
+                    <Tilt options={ { max: 25, scale: 1 } }>
+                        { /* <Link onClick={this.pageTransition} to="/case/smartbokr-webb">
+                            <figure style={{  backgroundImage: 'url(' + nordeaCase + ')' }}></figure>
+                            <div className="overlay"></div>
+                        </Link> */ }
+
+                        <span>
+                            <figure style={ { backgroundImage: 'url(' + kommandevisningar + ')' } }>
+                                <div className="case-section__item--text">
+                                    <h2>Prototype</h2>
                                     <p>#VisualDesign #Coming soon</p>
                                 </div>
                             </figure>

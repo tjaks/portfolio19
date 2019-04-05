@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88bd0d21-2f2e-4da9-af6b-3dadf9656298" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/media/Startpage-2019april.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/media/blixt-startpage-mockuo-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/media/blixt-startpage-mockup2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/media/quedrocrm-startpage-mockup-min.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/case/quedrocrm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/media/kommandevisningar.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/about.js" afterPath="$PROJECT_DIR$/src/components/about.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/case/quedro-website.js" afterPath="$PROJECT_DIR$/src/components/case/quedro-website.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/case/refitness.js" afterPath="$PROJECT_DIR$/src/components/case/refitness.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/startpage/case-section.js" afterPath="$PROJECT_DIR$/src/components/startpage/case-section.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/components/_case-section.scss" afterPath="$PROJECT_DIR$/src/styles/components/_case-section.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,14 +19,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="case-section.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/startpage/case-section.js">
+      <file leaf-file-name="_case-section.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/styles/components/_case-section.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1177">
-              <caret line="160" column="53" lean-forward="false" selection-start-line="160" selection-start-column="53" selection-end-line="160" selection-end-column="53" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="585">
+              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -109,7 +99,6 @@
         <option value="$PROJECT_DIR$/src/components/footer.js" />
         <option value="$PROJECT_DIR$/src/styles/components/_navigation.scss" />
         <option value="$PROJECT_DIR$/src/styles/components/startpage/_startpage.scss" />
-        <option value="$PROJECT_DIR$/src/styles/components/_case-section.scss" />
         <option value="$PROJECT_DIR$/src/components/case/nookstockholm-website.js" />
         <option value="$PROJECT_DIR$/src/components/case/quedro-website.js" />
         <option value="$PROJECT_DIR$/src/components/case/smartbokr-app.js" />
@@ -121,6 +110,7 @@
         <option value="$PROJECT_DIR$/src/components/case/quedrocrm.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/components/startpage/case-section.js" />
+        <option value="$PROJECT_DIR$/src/styles/components/_case-section.scss" />
       </list>
     </option>
   </component>
@@ -193,12 +183,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="startpage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="portfolio19" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio19" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="portfolio19" type="b2602c69:ProjectViewProjectNode" />
@@ -285,12 +269,12 @@
       <workItem from="1553600955044" duration="690000" />
       <workItem from="1553684302594" duration="18816000" />
       <workItem from="1554105187795" duration="8088000" />
-      <workItem from="1554465357546" duration="2697000" />
+      <workItem from="1554465357546" duration="3844000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53244000" />
+    <option name="totallyTimeSpent" value="54391000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2560" y="0" width="2560" height="1440" extended-state="0" />
@@ -976,26 +960,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/components/_case-section.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-          <folding>
-            <marker date="1554323210134" expanded="true" signature="45:1439" ph="{...}" />
-            <marker date="1554323210134" expanded="true" signature="230:1133" ph="{...}" />
-            <marker date="1554323210134" expanded="true" signature="349:405" ph="{...}" />
-            <marker date="1554323210134" expanded="true" signature="419:670" ph="{...}" />
-            <marker date="1554323210134" expanded="true" signature="595:664" ph="{...}" />
-            <marker date="1554323210134" expanded="true" signature="679:705" ph="{...}" />
-            <marker date="1554323210134" expanded="true" signature="712:828" ph="{...}" />
-            <marker date="1554323210134" expanded="true" signature="841:1129" ph="{...}" />
-            <marker date="1554323210134" expanded="true" signature="1045:1122" ph="{...}" />
-            <marker date="1554323210134" expanded="true" signature="1146:1437" ph="{...}" />
-            <marker date="1554323210134" expanded="true" signature="1349:1433" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/case/refitness.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1230">
@@ -1132,11 +1096,94 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/startpage/case-section.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1177">
-          <caret line="160" column="53" lean-forward="false" selection-start-line="160" selection-start-column="53" selection-end-line="160" selection-end-column="53" />
+        <state relative-caret-position="165">
+          <caret line="11" column="64" lean-forward="false" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="64" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <marker date="1554474192875" expanded="true" signature="7:734" ph="..." />
+            <marker date="1554474192875" expanded="true" signature="788:10674" ph="{...}" />
+            <marker date="1554474192875" expanded="true" signature="814:1103" ph="{...}" />
+            <marker date="1554474192875" expanded="true" signature="859:998" ph="{&quot;backgroundColor&quot;: &quot;##ccc&quot;...}" />
+            <marker date="1554474192875" expanded="true" signature="1126:1154" ph="{...}" />
+            <marker date="1554474192875" expanded="true" signature="1180:1323" ph="{...}" />
+            <marker date="1554474192875" expanded="true" signature="1204:1315" ph="{&quot;backgroundColor&quot;: &quot;##000&quot;...}" />
+            <marker date="1554474192875" expanded="true" signature="1349:1492" ph="{...}" />
+            <marker date="1554474192875" expanded="true" signature="1373:1484" ph="{&quot;backgroundColor&quot;: &quot;##ccc&quot;...}" />
+            <marker date="1554474192875" expanded="true" signature="1507:10672" ph="{...}" />
+            <marker date="1554474192875" expanded="true" signature="1538:10655" ph="&lt;article/&gt;" />
+            <marker date="1554474192875" expanded="true" signature="1722:2731" ph="&lt;section/&gt;" />
+            <marker date="1554474192875" expanded="true" signature="1783:2704" ph="&lt;Tilt/&gt;" />
+            <marker date="1554474192875" expanded="true" signature="1848:2360" ph="&lt;Link/&gt;" />
+            <marker date="1554474192875" expanded="true" signature="1936:2268" ph="&lt;figure/&gt;" />
+            <marker date="1554474192875" expanded="true" signature="2033:2230" ph="&lt;div/&gt;" />
+            <marker date="1554474192875" expanded="true" signature="2387:2469" ph="/*...*/" />
+            <marker date="1554474192875" expanded="true" signature="2498:2573" ph="/*...*/" />
+            <marker date="1554474192875" expanded="true" signature="2602:2637" ph="/*...*/" />
+            <marker date="1554474192875" expanded="true" signature="2666:2674" ph="/*...*/" />
+            <marker date="1554474192875" expanded="true" signature="2749:3756" ph="&lt;section/&gt;" />
+            <marker date="1554474192875" expanded="true" signature="2810:3729" ph="&lt;Tilt/&gt;" />
+            <marker date="1554474192875" expanded="true" signature="2875:3385" ph="&lt;Link/&gt;" />
+            <marker date="1554474192875" expanded="true" signature="2963:3293" ph="&lt;figure/&gt;" />
+            <marker date="1554474192875" expanded="true" signature="3060:3255" ph="&lt;div/&gt;" />
+            <marker date="1554474192875" expanded="true" signature="3412:3494" ph="/*...*/" />
+            <marker date="1554474192875" expanded="true" signature="3523:3598" ph="/*...*/" />
+            <marker date="1554474192875" expanded="true" signature="3627:3662" ph="/*...*/" />
+            <marker date="1554474192875" expanded="true" signature="3691:3699" ph="/*...*/" />
+            <marker date="1554474192875" expanded="true" signature="3774:4494" ph="&lt;section/&gt;" />
+            <marker date="1554474192875" expanded="true" signature="3836:4467" ph="&lt;Tilt/&gt;" />
+            <marker date="1554474192875" expanded="true" signature="3901:4439" ph="&lt;Link/&gt;" />
+            <marker date="1554474192875" expanded="true" signature="3992:4347" ph="&lt;figure/&gt;" />
+            <marker date="1554474192875" expanded="true" signature="4092:4309" ph="&lt;div/&gt;" />
+            <marker date="1554474192875" expanded="true" signature="4512:5552" ph="&lt;section/&gt;" />
+            <marker date="1554474192875" expanded="true" signature="4574:5525" ph="&lt;Tilt/&gt;" />
+            <marker date="1554474192875" expanded="true" signature="4639:5173" ph="&lt;Link/&gt;" />
+            <marker date="1554474192875" expanded="true" signature="4734:5081" ph="&lt;figure/&gt;" />
+            <marker date="1554474192875" expanded="true" signature="4831:5043" ph="&lt;div/&gt;" />
+            <marker date="1554474192875" expanded="true" signature="5200:5282" ph="/*...*/" />
+            <marker date="1554474192875" expanded="true" signature="5311:5388" ph="/*...*/" />
+            <marker date="1554474192875" expanded="true" signature="5417:5458" ph="/*...*/" />
+            <marker date="1554474192875" expanded="true" signature="5487:5495" ph="/*...*/" />
+            <marker date="1554474192875" expanded="true" signature="5570:6589" ph="&lt;section/&gt;" />
+            <marker date="1554474192875" expanded="true" signature="5637:6562" ph="&lt;Tilt/&gt;" />
+            <marker date="1554474192875" expanded="true" signature="5704:5967" ph="/*...*/" />
+            <marker date="1554474192875" expanded="true" signature="5995:6534" ph="&lt;a/&gt;" />
+            <marker date="1554474192875" expanded="true" signature="6099:6445" ph="&lt;figure/&gt;" />
+            <marker date="1554474192875" expanded="true" signature="6198:6407" ph="&lt;div/&gt;" />
+            <marker date="1554474192875" expanded="true" signature="6607:7558" ph="&lt;section/&gt;" />
+            <marker date="1554474192875" expanded="true" signature="6673:7531" ph="&lt;Tilt/&gt;" />
+            <marker date="1554474192875" expanded="true" signature="6740:7002" ph="/*...*/" />
+            <marker date="1554474192875" expanded="true" signature="7030:7503" ph="&lt;span/&gt;" />
+            <marker date="1554474192875" expanded="true" signature="7065:7411" ph="&lt;figure/&gt;" />
+            <marker date="1554474192875" expanded="true" signature="7167:7373" ph="&lt;div/&gt;" />
+            <marker date="1554474192875" expanded="true" signature="7576:8530" ph="&lt;section/&gt;" />
+            <marker date="1554474192875" expanded="true" signature="7642:8503" ph="&lt;Tilt/&gt;" />
+            <marker date="1554474192875" expanded="true" signature="7709:7971" ph="/*...*/" />
+            <marker date="1554474192875" expanded="true" signature="7999:8475" ph="&lt;span/&gt;" />
+            <marker date="1554474192875" expanded="true" signature="8034:8383" ph="&lt;figure/&gt;" />
+            <marker date="1554474192875" expanded="true" signature="8139:8345" ph="&lt;div/&gt;" />
+            <marker date="1554474192875" expanded="true" signature="8548:9595" ph="&lt;section/&gt;" />
+            <marker date="1554474192875" expanded="true" signature="8614:9568" ph="&lt;Tilt/&gt;" />
+            <marker date="1554474192875" expanded="true" signature="8679:9209" ph="&lt;Link/&gt;" />
+            <marker date="1554474192875" expanded="true" signature="8771:9117" ph="&lt;figure/&gt;" />
+            <marker date="1554474192875" expanded="true" signature="8866:9079" ph="&lt;div/&gt;" />
+            <marker date="1554474192875" expanded="true" signature="9236:9324" ph="/*...*/" />
+            <marker date="1554474192875" expanded="true" signature="9353:9431" ph="/*...*/" />
+            <marker date="1554474192875" expanded="true" signature="9460:9498" ph="/*...*/" />
+            <marker date="1554474192875" expanded="true" signature="9527:9538" ph="/*...*/" />
+            <marker date="1554474192875" expanded="true" signature="9613:10632" ph="&lt;section/&gt;" />
+            <marker date="1554474192875" expanded="true" signature="9691:10605" ph="&lt;Tilt/&gt;" />
+            <marker date="1554474192875" expanded="true" signature="9758:10020" ph="/*...*/" />
+            <marker date="1554474192875" expanded="true" signature="10048:10577" ph="&lt;a/&gt;" />
+            <marker date="1554474192875" expanded="true" signature="10151:10488" ph="&lt;figure/&gt;" />
+            <marker date="1554474192875" expanded="true" signature="10249:10450" ph="&lt;div/&gt;" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/components/_case-section.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
