@@ -5,8 +5,11 @@ html {
 .container {
     margin-right: auto;
     margin-left: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0;
+    div,p, h1,h2,h3 {
+        padding: 0 15px;
+    }
+    width: 100%;
     @media (min-width: 1200px)
     {
         width: 1170px;
@@ -17,6 +20,8 @@ html {
     }
     @media (min-width: 768px)
     {
+        padding-left: 15px;
+        padding-right: 15px;
         width: 750px;
     }
 }
@@ -151,8 +156,12 @@ input {
 }
 
 .mobile-mockup {
-    width: 300px;
+    width: 100%;
     height: auto;
+    @media (min-width: 301px)
+    {
+        width: 300px;
+    }
 }
 
 

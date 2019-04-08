@@ -119,15 +119,11 @@
       height: auto;
       width: 80%;
       float: right;
-      // border-radius: 2rem;
       align-self: center;
       box-shadow: 0 0 30px #ccc;
-      // border: 6px solid #000;
-
       margin: -5rem 0 5rem 1rem;
 
       @media (max-width: 600px) {
-        //margin: 2rem 1rem 2rem 1rem;
         width: 92%;
       }
 
@@ -160,13 +156,8 @@
     p {
       color: aliceblue;
     }
-
-    div {
-      flex-basis: 50%;
-    }
-
     &--100 {
-      margin: 2rem 0;
+      margin: 0 0 2rem 0;
       width: 100%;
     }
 

@@ -5,6 +5,7 @@ import img1 from '../../media/refitnessmockup.png';
 import img2 from '../../media/refitness-mockups.png';
 import img3 from '../../media/refitness-start.jpg';
 import img4 from '../../media/refitness-movie.gif';
+import img5 from '../../media/refitness-styleguide.jpg';
 
 
 
@@ -86,10 +87,11 @@ export default class refitness extends Component {
                         <p>Here is an example where we decided to go with images in column 2, with column 3 as an example of showing a banner for campaigns.</p>
                     </div>
                     <img className="case-study__info--100" src={ img2 }  alt="Refitness Case Study wireframe" />
-
+                    <h3>Styleguide</h3>
+                    <p>The color palette is inspired by the ocean, with the 2019 years color, "Living Coral" and a background inspired from deep sea.</p>
+                    <img className="mobile-mockup case-study__info--shadow case-study__info--100" src={ img5 }   alt="Refitness Styleguide" />
                     <h3>A mobile first approach</h3>
                     <p>With a client base almost only coming from social media platforms, the numbers are really high for mobile visitors. Having an mobile first approach was a given.</p>
-                    <p>The color palette is inspired by the ocean, with the 2019 years color, "Living Coral" and a background inspired from deep sea.</p>
                     <img className="mobile-mockup case-study__info--shadow" src={ img3 }   alt="Refitness Case Study startpage" />
                     <h3>An example of animations for desktop.</h3>
                     <img className="case-study__info--100 case-study__info--shadow" src={ img4 }  alt="Refitness Case Study movie" />

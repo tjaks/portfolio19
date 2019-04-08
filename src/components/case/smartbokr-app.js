@@ -46,7 +46,7 @@ export default class smartbokrApp extends Component {
 
                     <div className="case-study__textline">
                         <p>
-                            With the challenge of it being a customisable product with features like
+                            The design process was a complex challenge because the product should be easily customisable with features like
                             custom colors, fonts and elements.
                         </p>
                         <p> Scroll down to see the result.</p>
@@ -64,10 +64,10 @@ export default class smartbokrApp extends Component {
                     </div>
                     <div>
                         <h3>Brief</h3>
-                        <p> Create an web application to sell to different Real Estate Agents companies in different
+                        <p> Create an web application for different Real Estate Agent companies in different
                             countries.<br/>
                             It should be customisable and every client should be able to put their own graphic profile
-                            on it, too feel like a part of their website.</p>
+                            on it, too feel like a part of their own website.</p>
                     </div>
                     <div>
                         <h3>Role</h3>
