@@ -5,18 +5,23 @@ html {
 .under-construction {
   background: orange;
   font-weight: bold;
-  height: 1.5rem;
+  height: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 20rem;
   font-size: .8rem;
   z-index: 105;
-  padding: .5rem;
   @media (max-width: 500px) {
     width: 100%;
     margin: 0 1rem 1rem 1rem;
   }
+
+  p {
+    padding: .5rem;
+  }
+
+
 }
 
 .container {
