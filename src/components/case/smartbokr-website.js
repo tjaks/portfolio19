@@ -37,7 +37,7 @@ export default class smartbokrWebsite extends Component {
                 </div>
                 <section className="case-study__jumbotron">
                     <div className="case-study__headline">
-                    <a className="open-external-link" href="https://www.quedro.com" rel="noopener noreferrer"
+                    <a className="open-external-link" href="https://www.smarbokr.com" rel="noopener noreferrer"
                            target="_blank">visit site<i
                             className="fa fa-external-link"></i></a>
                         <h1>
@@ -48,7 +48,7 @@ export default class smartbokrWebsite extends Component {
 
                     <div className="case-study__textline">
                         <p>
-                            A product page to promote the smartbokr application, high end landing page to feel modern
+                            A product page to promote the smartbokr application, a high end website to feel modern
                             and smart.
                         </p>
                         <p> Scroll down to see the result.</p>
@@ -77,7 +77,7 @@ export default class smartbokrWebsite extends Component {
                     <div>
                         <h3>Role</h3>
                         <p>
-                            The project where a team of three, me; as designer and developer, the project manager and
+                            We had a team of three, me, as designer and developer, the project manager and
                             the sales manager.
                         </p>
                     </div>
