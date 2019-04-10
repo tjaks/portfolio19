@@ -84,7 +84,7 @@ export default class refitness extends Component {
                     </div>
                     <div>
                         <p>Next was creating different lo-fi versions, for each page.</p>
-                        <p>Here is an example where we decided to go with images in column 2, with column 3 as an example of showing a banner for campaigns.</p>
+                        <p>Here is an example where we decided to go with the wireframes in column 2, with column 3 as an example of showing a banner for campaigns.</p>
                     </div>
                     <img className="case-study__info--100" src={ img2 }  alt="Refitness Case Study wireframe" />
                     <h3>Styleguide</h3>

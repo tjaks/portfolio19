@@ -80,7 +80,7 @@ export default class quedrCrm extends Component {
                         </p>
                     </div>
                 </section>
-                <section className="case-study__info container">
+                <section className="case-study__info container coming-soon">
                     <h3>More coming soon!</h3>
                 </section>
 
