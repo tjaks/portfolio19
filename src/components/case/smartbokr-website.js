@@ -37,7 +37,7 @@ export default class smartbokrWebsite extends Component {
                 </div>
                 <section className="case-study__jumbotron">
                     <div className="case-study__headline">
-                    <a className="open-external-link" href="https://www.smarbokr.com" rel="noopener noreferrer"
+                    <a className="open-external-link" href="https://www.smartbokr.com" rel="noopener noreferrer"
                            target="_blank">visit site<i
                             className="fa fa-external-link"></i></a>
                         <h1>
