@@ -52,7 +52,7 @@ export default class CaseSection extends Component {
     render() {
         return (
             <article className="case-section" style={ { background: `${this.state.backgroundColor}` } }>
-                <div className="under-construction"><p>Website and Case Studies under construction, more coming soon.</p></div>
+                <div className="under-construction"><p>The website and Case Studies is under construction.</p></div>
                 <Waypoint onEnter={ this.caseWaypointEnter.bind(this) }/>
 
                 <section className="case-section__item">
